@@ -21,5 +21,5 @@ Reemplazando "sc" por la competencia que se quiera consultar (sc, xf, cw, go, mc
 
     Nahuel Ignacio Prado    - 64276 - naprado@itba.edu.ar
     Mateo Buela             - 64680 - mbuela@itba.edu.ar
-    Luana Percich           - legaj - lpercich@itba.edu.ar
-    Lorenzo Chiossone       - legaj - lchiossone@itba.edu.ar
+    Luana Percich           - 64316 - lpercich@itba.edu.ar
+    Lorenzo Chiossone       - 64359 - lchiossone@itba.edu.ar
