@@ -26,7 +26,7 @@ fi
 
 if [ $2 -eq $2 2>/dev/null ]
 then
-    if [ $2 -lt 2013 ] || [ $2 -gt 2023 ]
+    if [ $2 -lt year_min ] || [ $2 -gt year_max ]
     then
         year_error=2
         error=1
