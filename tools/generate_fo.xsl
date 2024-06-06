@@ -18,7 +18,7 @@
 
             <fo:page-sequence master-reference="page">
                 <fo:static-content flow-name="xsl-region-before">
-                    <fo:block font-size="10pt" text-align="center">
+                    <fo:block line-height="14pt" font-size="10pt" text-align="end" >
                         TPE 2024 1Q Grupo 08
                     </fo:block>
                 </fo:static-content>
@@ -32,7 +32,7 @@
                         <xsl:text> season</xsl:text>
                     </fo:block>
 
-                    <fo:table table-layout="fixed" width="100%" border="1pt solid black" font-size="8pt">
+                    <fo:table table-layout="fixed" width="100%" border="1pt solid black" font-size="8pt" text-align="center">
                         <fo:table-column column-width="14%"/>
                         <fo:table-column column-width="10%"/>
                         <fo:table-column column-width="10%"/>

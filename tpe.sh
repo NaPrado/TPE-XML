@@ -21,11 +21,11 @@ then
     error=1
 fi
 
-if [ -z "$API_KEY" ]
-then
-    null_api_key=1
-    error=1
-fi
+# if [ -z "$API_KEY" ]
+# then
+#     null_api_key=1
+#     error=1
+# fi
 
 if [ $2 -eq $2 2>/dev/null ]
 then
