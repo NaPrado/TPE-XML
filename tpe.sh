@@ -61,7 +61,7 @@ java net.sf.saxon.Query "invalid_arguments_number=$invalid_arguments_number" "nu
 
 # xsltproc -o ./tools/nascar_page.fo ./tools/generate_fo.xsl ./data/nascar_data.xml
 java net.sf.saxon.Transform -s:data/nascar_data.xml -xsl:tools/generate_fo.xsl -o:tools/nascar_page.fo
-fop ./tools/nascar_page.fo  nascar_report.pdf
+./fop-2.9/fop/fop ./tools/nascar_page.fo  nascar_report.pdf
 
 # java net.sf.saxon.Transform -s:data/$TYPE_DATA_FILE -xsl:tools/add_validation_schema.xsl -o:data/$TYPE_DATA_FILE
 # echo Data generated at data/$TYPE_DATA_FILE
