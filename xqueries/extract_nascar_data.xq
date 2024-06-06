@@ -44,25 +44,35 @@ declare function local:generate-xml($year as xs:string, $competitionType as xs:s
   let $driversRanking := doc("../data/drivers_standings.xml")/series/season
 
   return
+  if (empty($driversList/series)) then
+    local:query-errors("Series not found")
+  else if (empty($driversList/series/season)) then
+    local:query-errors("Season not found")
+  else if (empty($driversList/series/season/driver)) then
+    local:query-errors("Drivers not found")
+  else if (empty($driversRanking)) then
+    local:query-errors("Rankings not found")
+  else
   element nascar_data {
     element year { fn:string($year)},
     element serie_type {fn:string($competitionType)},
     element drivers {
-      for $driver in $driversList/series/season/driver
-      let $ranking := $driversRanking/driver[@id=$driver/@id]
+      for $driver in $driversRanking/driver
+      let $dList := $driversList/series/season/driver[@id=$driver/@id]
       return
       element driver {
-        element full_name { fn:string($driver/@full_name)},
-        element country { fn:string($driver/@country)},
-        element birth_date { fn:string($driver/@birth_place)},
-        element rank { fn:string($ranking/@rank)},
-        (:~ element car { fn:string($driversList/series/season/driver/car/manufacturer/@name[../../../team/@id = $driver/team/@id and ../../../@id = $driver/@id])}, ~:)
+        element full_name { fn:string($dList/@full_name)},
+        element country { fn:string($dList/@country)},
+        element birth_date { fn:string($dList/@birthday)},
+        element birth_place { fn:string($dList/@birth_place)},
+        element rank { fn:string($driver/@rank)},
+        element car { fn:string($dList/car/manufacturer/@name)},
         element statistics {
-          element season_points { fn:string($ranking/@points)},
-          element wins { fn:string($ranking/@wins)},
-          element poles { fn:string($ranking/@poles)},
-          element races_not_finished { fn:string($ranking/@dnf)},
-          element laps_completed { fn:string($ranking/@laps_completed)}
+          element season_points { fn:string($dList/@points)},
+          element wins { fn:string($dList/@wins)},
+          element poles { fn:string($dList/@poles)},
+          element races_not_finished { fn:string($dList/@dnf)},
+          element laps_completed { fn:string($dList/@laps_completed)}
         }
       }
     }
