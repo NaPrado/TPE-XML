@@ -39,13 +39,17 @@ else
     error=1
 fi
 
+if [[ $1 =~ (sc|xf|cw|go|mc)$ ]]
+then
+    echo > /dev/null
+else
+    echo $1
+    error=1
+fi
+
 if [ $error -eq 1 ]
 then
-    java net.sf.saxon.Query "type_id=$type_id" "invalid_arguments_number=$invalid_arguments_number" "null_api_key=$null_api_key" "information_not_found=$information_not_found" "year_error=$year_error" ./xqueries/extract_nascar_data.xq -o:./data/type_data.xml
-    echo Data generated at data/$TYPE_DATA_FILE
-    java net.sf.saxon.Transform -s:data/$TYPE_DATA_FILE -xsl:tools/add_validation_schema.xsl -o:data/$TYPE_DATA_FILE
-    java net.sf.saxon.Transform -s:data/$TYPE_DATA_FILE -xsl:tools/generate_markdown.xsl -o:data/$MARKDOWN_FILE
-    echo Page generated at data/$MARKDOWN_FILE
+    echo "An error as ocurred"
     exit 1
 fi
 

@@ -10,7 +10,7 @@ El presente trabajo consiste en un programa que realiza una consulta a la págin
 2. Establecemos la variable de entorno API_KEY, usando el siguiente comando:
     export API_KEY [Esto se debe remplazar por la key]
 
-3. Para ejecutar el programa, se debe correr la siguiente línea de código en la terminal: 
+3. Para ejecutar el programa, se debe correr la siguiente línea de códgio en la terminal: 
 
    ```sh
    ./tpe.sh "sc" 2015

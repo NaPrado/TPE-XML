@@ -19,7 +19,7 @@
             <fo:page-sequence master-reference="page">
                 <fo:static-content flow-name="xsl-region-before">
                     <fo:block line-height="14pt" font-size="10pt" text-align="end" >
-                        TPE 2024 1Q Grupo 08
+                        TPE 2024 1Q Grupo 06
                     </fo:block>
                 </fo:static-content>
 
@@ -70,7 +70,7 @@
                                     </fo:table-cell>
                                     <fo:table-cell>
                                         <fo:block>
-                                            <xsl:value-of select="concat(translate(substring(country, 1, 1), 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'), translate(substring(country, 2), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'))"/>
+                                            <xsl:value-of select="concat(upper-case(substring(country, 1, 1)), lower-case(substring(country, 2)))"/>
                                         </fo:block>
                                     </fo:table-cell>
                                     <fo:table-cell>

@@ -67,10 +67,11 @@ declare function local:generate-xml($year as xs:string, $competitionType as xs:s
         element birth_place { fn:string($dList/@birth_place)},
         element rank { fn:string($driver/@rank)},
         element car { 
-            if (empty($dList/car/manufacturer/@name)) then
+            (:~ if (empty($dList/car/manufacturer/@name)) then
                 fn:string('-')
             else
-                fn:string($dList/car/manufacturer/@name)
+                fn:string($dList/car/manufacturer/@name) ~:)
+            fn:string(($dList/car/manufacturer/@name)[1])
         },
         element statistics {
           element season_points { fn:string($driver/@points)},
