@@ -16,7 +16,7 @@
    <fo:page-sequence master-reference="page">
       <fo:static-content flow-name="xsl-region-before">
          <fo:block line-height="14pt" font-size="10pt" text-align="end">
-                        TPE 2024 1Q Grupo 08
+                        TPE 2024 1Q Grupo 06
                     </fo:block>
       </fo:static-content>
       <fo:flow flow-name="xsl-region-body">
