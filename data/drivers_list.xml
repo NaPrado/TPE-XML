@@ -1,402 +1,591 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nascar/series-v2.0.xsl"?><!-- Generation started @ 2019-06-12 16:35:48 +0000 --><series id="3e32047e-4ff3-4e35-a607-1546a2c32214" alias="CUP" name="Monster Energy NASCAR Cup">
-  <season year="2013" id="908399c9-c23d-4e14-acad-52eacf7a96a1">
-    <driver id="f3da65fb-aa5a-46c3-b05e-ceebc2bfb302" first_name="Jacques" last_name="Villeneuve" full_name="Jacques Villeneuve" height="67" birthday="1971-04-09" rookie_year="1996" gender="M" status="ACT" country="Canada" birth_place="Saint-Jean sur-Richelieu, Quebec" points_eligible="true">
-    </driver>
-    <driver id="ab428344-fb5d-494c-9452-32fafc9a7536" first_name="Victor" last_name="Gonzalez" full_name="Victor Gonzalez Jr" birthday="1975-07-18" gender="M" status="ACT" country="PUERTO RICO" residence=", , " birth_place="Trujillo Alto, , Puerto Rico" twitter="@VictorGonz" points_eligible="true">
-    </driver>
-    <driver id="aaf8b44f-d95a-4bc1-ac93-759a1d88c825" first_name="Norm" last_name="Benning" full_name="Norm Benning" height="70" birthday="1952-01-16" rookie_year="1989" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Level Green, Pennsylvania, United States" twitter="@RacingNorm" points_eligible="false">
-      <team id="c5025a91-2f55-4f6a-80bd-8dd2ae1a8283" name="Norm Benning Racing">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nascar/series-v2.0.xsl"?><!-- Generation started @ 2020-12-29 16:23:01 UTC --><series id="32252f5c-ca88-460f-b786-2d28503e6048" alias="TRUCK" name="NASCAR Camping World Truck Series">
+  <season year="2019" id="10bc1545-bc9a-46d0-a1e1-8dafdac75f01">
+    <driver id="57a7ee40-f7b9-4b01-853f-9e7eb7286b2e" first_name="Colt" last_name="Gilliam" full_name="Colt Gilliam" birthday="1989-12-27" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Rock Hill, South Carolina, United States" points_eligible="true">
+      <team id="1bd0412c-11f9-416f-952d-e0ebb96015ad" name="NEMCO Motorsports">
       </team>
     </driver>
-    <driver id="dd1343e6-8e36-44f4-af0c-f1f8d24b41e9" first_name="Jeff" last_name="Burton" full_name="Jeff Burton" height="67" birthday="1967-06-29" rookie_year="1993" gender="M" status="RET" country="United States" residence="Huntersville, NC, USA" birth_place="South Boston, VA, USA" points_eligible="true">
-      <team id="ffd3ba10-57f2-4bb8-9aaf-7c64b1ba793a" name="Richard Childress Racing">
-        <owner id="84e3b257-75b1-40ef-8774-cfb53fab90e9" name="Richard Childress"/>
+    <driver id="c1eed2a8-0542-46cc-b75a-d33265d96b77" first_name="Austin Wayne" last_name="Self" full_name="Austin Wayne Self" birthday="1996-03-05" rookie_year="2016" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Austin, Texas, United States" twitter="@AustinWSelf" points_eligible="true">
+      <team id="f7519167-737a-421b-926d-7777cd61d3c0" name="AM Racing">
       </team>
-    </driver>
-    <driver id="2d165a7a-242c-4050-9942-3a88bf2f9ccc" first_name="Jason" last_name="Leffler" full_name="Jason Leffler" height="63" birthday="1975-09-16" rookie_year="2001" gender="M" status="RET" country="United States" points_eligible="false">
-    </driver>
-    <driver id="ee223f37-aae4-4dfe-9aaf-77817573b73f" first_name="Owen" last_name="Kelly" full_name="Owen Kelly" birthday="1977-03-12" gender="M" status="ACT" country="AUSTRALIA" residence=", , " birth_place="Tasmania, , Australia" points_eligible="true">
-    </driver>
-    <driver id="f4f421b7-6683-4c6f-af57-f1727ccdacd4" first_name="Alex" last_name="Kennedy" full_name="Alex Kennedy" birthday="1992-02-02" rookie_year="2015" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Aztec, New Mexico, United States" twitter="@AlexKennedy_61" points_eligible="true">
-    </driver>
-    <driver id="0853e97b-8d9b-420a-9e37-8b81e064c6cf" first_name="Carl" last_name="Edwards" full_name="Carl Edwards" height="73" weight="185" birthday="1979-08-15" rookie_year="2003" gender="M" status="RET" country="UNITED STATES" residence="Columbia, Missouri, United States" birth_place="Columbia, Missouri, United States" hobbies="Bicycling, aviation, fitness training, reading " children="Anne" points_eligible="true">
-      <team id="69cd5f7e-cb9d-46c0-a2c3-c1dde01969ee" name="Roush Fenway Racing">
-      </team>
-    </driver>
-    <driver id="66d6cb11-de3a-4816-9c58-003a76634560" first_name="Brendan" last_name="Gaughan" full_name="Brendan Gaughan" height="69" birthday="1975-07-10" rookie_year="2009" gender="M" status="ACT" country="UNITED STATES" residence="Las Vegas, Nevada, United States" birth_place="Las Vegas, Nevada, United States" college="Georgetown University" hobbies="Off-road racing, Snow skiing, scuba diving, basketball, family time" children="Michael" twitter="@brendan62" points_eligible="false">
-      <team id="ffd3ba10-57f2-4bb8-9aaf-7c64b1ba793a" name="Richard Childress Racing">
-        <owner id="84e3b257-75b1-40ef-8774-cfb53fab90e9" name="Richard Childress"/>
-      </team>
-      <car id="e220a4c1-eedb-466c-a8d2-850400933538" number="62" sponsors="Beard Oil Distributing/South Point Hotel &amp; Casino" status="ACT" crew_chief="Darren Shaw">
+      <car id="8a54cd0d-74e3-44a2-9bb1-8808065c2636" number="22" sponsors="AM Technical Solutions/GOTEXAN/JB Henderson Construction/Airbox" status="ACT" crew_chief="Ryan Salomon">
         <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
         <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
-        <owner id="70938928-7a98-42b2-9878-998c78d86767" name="Mark Beard"/>
-        <team id="0e867fe3-003d-422c-b0ce-04e33bc6a823" name="Beard Motorsports">
-          <owner id="e0492ba5-c027-40ef-a794-ee139c324fde" name="Mark Beard"/>
+        <owner id="19def2e5-bb87-4d01-86cd-bad5a582c80b" name="Tim Self"/>
+        <team id="f7519167-737a-421b-926d-7777cd61d3c0" name="AM Racing">
         </team>
       </car>
     </driver>
-    <driver id="3c19ebc2-e3e9-4ec1-abb1-90d93293312f" first_name="Stephen" last_name="Leicht" full_name="Stephen Leicht" birthday="1987-01-09" rookie_year="2012" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Asheville, North Carolina, United States" twitter="@StephenLeicht" points_eligible="true">
-      <team id="ffd3ba10-57f2-4bb8-9aaf-7c64b1ba793a" name="Richard Childress Racing">
-        <owner id="84e3b257-75b1-40ef-8774-cfb53fab90e9" name="Richard Childress"/>
+    <driver id="81656cc6-90cb-4880-9e31-fb5db1db84af" first_name="Colin" last_name="Garrett" full_name="Colin Garrett" birthday="2000-07-06" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Elmo, Virginia, United States" points_eligible="false">
+      <team id="7cc27046-ce42-4d9c-befc-01e9255a0a45" name="Niece Motorsports">
       </team>
     </driver>
-    <driver id="85c06960-3610-4eff-9ef2-18641b84c952" first_name="Kyle" last_name="Busch" full_name="Kyle Busch" height="73" birthday="1985-05-02" rookie_year="2004" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Las Vegas, Nevada, United States" hobbies="Remote-control cars, sand cars, boating, watching Denver Broncos and Chicago Bears football" twitter="@kylebusch" points_eligible="true">
-      <team id="b30dee06-c437-4e76-8b9c-8b850d52ce21" name="Joe Gibbs Racing">
+    <driver id="ae8a7d4a-f25d-41da-b080-160917018bf5" first_name="Tyler" last_name="Ankrum" full_name="Tyler Ankrum" birthday="2001-03-06" rookie_year="2019" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="San Bernardino, California, United States" points_eligible="true">
+      <team id="3b5249ed-a226-4107-b5e0-eaec52d818ef" name="DGR-CROSLEY">
       </team>
-      <car id="17765fdf-5d63-4795-80ae-9149c91729c4" number="18" sponsors="M&amp;M's/Skittles/Interstate Batteries/Snickers/Pedigree" status="ACT" crew_chief="Adam Stevens">
-        <manufacturer id="73364deb-a012-4625-b759-db6a236797e3" name="Toyota"/>
-        <engine id="91db24df-134d-4c07-a13b-76266b3dd534" name="Toyota"/>
-        <owner id="e7846c1b-f64e-4312-8ee3-13c8a0001a8b" name="Joe Gibbs"/>
-        <team id="b30dee06-c437-4e76-8b9c-8b850d52ce21" name="Joe Gibbs Racing">
-        </team>
-      </car>
-    </driver>
-    <driver id="4f71961b-9ea3-49b2-a48d-2ae1f77b8e97" first_name="Kelly" last_name="Bires" full_name="Kelly Bires" height="69" birthday="1984-08-25" rookie_year="2009" gender="M" status="ACT" country="United States" points_eligible="true">
-    </driver>
-    <driver id="e122ff07-d5bf-4b76-8d2e-c03cad187e6b" first_name="Kenny" last_name="Wallace" full_name="Kenny Wallace" height="71" birthday="1963-08-23" rookie_year="1990" gender="M" status="RET" country="UNITED STATES" residence="Concord, North Carolina, United States" birth_place="St. Louis, Missouri, United States" hobbies="Video games, landscaping, following St. Louis Cardinals, social networking, dirt racing" children="Brooke, Brandy, Brittany" twitter="@Kenny_Wallace" points_eligible="false">
-    </driver>
-    <driver id="ab4c36af-3933-4fb8-b03f-b6cd4b37ac8c" first_name="Jason" last_name="Bowles" full_name="Jason Bowles" gender="M" status="ACT" country="United States" points_eligible="false">
-    </driver>
-    <driver id="309f3d19-0217-40a7-9769-75f3750d6bec" first_name="Mike" last_name="Bliss" full_name="Mike Bliss" height="73" birthday="1965-04-05" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Milwaukie, Oregon, United States" hobbies="Golfing, Boating" children="Brittney" twitter="@MikeBliss19" points_eligible="false">
-    </driver>
-    <driver id="4d95ef3a-46cc-43c2-b340-c92cea2ed7f8" first_name="Martin" last_name="Truex" full_name="Martin Truex Jr" height="71" weight="180" birthday="1980-06-29" rookie_year="2004" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Mayetta, New Jersey, United States" hobbies="Fishing, hunting, building/racing radio-control boats, riding four-wheelers" twitter="@MartinTruex_Jr" points_eligible="true">
-      <team id="35c6fd55-54bb-4eb4-85a2-00bfbaaea871" name="Michael Waltrip Racing">
-        <owner id="db4bc17c-739e-42e4-b10a-bd0aa234a127" name="Michael Waltrip"/>
-      </team>
-      <car id="1e8fcd69-e12e-4fb4-8dff-8b7ec56f3e3f" number="19" sponsors="Bass Pro Shops/Auto Owners Insurance/Tracker ATVs/SiriusXM" status="ACT" crew_chief="Cole Pearn">
-        <manufacturer id="73364deb-a012-4625-b759-db6a236797e3" name="Toyota"/>
-        <engine id="91db24df-134d-4c07-a13b-76266b3dd534" name="Toyota"/>
-        <owner id="d84c771d-594c-4cfb-af6f-4bdd39abae75" name="Coy Gibbs"/>
-        <team id="b30dee06-c437-4e76-8b9c-8b850d52ce21" name="Joe Gibbs Racing">
-        </team>
-      </car>
-    </driver>
-    <driver id="6db2400f-0fd5-49af-ae80-64f26385b9f2" first_name="Greg" last_name="Biffle" full_name="Greg Biffle" height="69" birthday="1969-12-23" rookie_year="2003" gender="M" status="RET" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Vancouver, Washington, United States" hobbies="Cars, boating, fishing, flying" children="Emma" twitter="@gbiffle" points_eligible="true">
-      <team id="69cd5f7e-cb9d-46c0-a2c3-c1dde01969ee" name="Roush Fenway Racing">
-      </team>
-    </driver>
-    <driver id="76aaf646-edf7-4ea5-a753-c086573b7700" first_name="Paulie" last_name="Harraka" full_name="Paulie Harraka" birthday="1989-09-15" gender="M" status="ACT" country="United States" residence="Wayne, NJ" college="Duke" points_eligible="true">
-    </driver>
-    <driver id="057da6c6-ad81-4c65-b6b1-64b6da9e2ee7" first_name="Jimmie" last_name="Johnson" full_name="Jimmie Johnson" height="71" weight="165" birthday="1975-09-17" rookie_year="2002" gender="M" status="ACT" country="UNITED STATES" residence="Charlotte, North Carolina, United States" birth_place="El Cajon, California, United States" hobbies="Snowboarding, biking, golf" children="Genevieve" twitter="@JimmieJohnson" points_eligible="true">
-      <team id="8427da4c-9c88-4849-9242-0c184d5ed67c" name="Hendrick Motorsports">
-        <owner id="df3acab4-1712-44bb-b913-897b4e20fd50" name="Rick Hendrick"/>
-      </team>
-      <car id="733d54fb-e4f5-4829-bc2a-94af6c9c6504" number="48" sponsors="Ally Financial" status="ACT" crew_chief="Kevin Meendering">
+      <car id="c5084ab5-7a6e-4fde-a16a-f96eb1bd558a" number="26" sponsors="Liuna!/May's/Railblaza" status="ACT" crew_chief="Chad Walter">
         <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
         <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
-        <owner id="492ef62b-a861-4672-9940-0ec3133e04f1" name="Jeff Gordon"/>
-        <team id="8427da4c-9c88-4849-9242-0c184d5ed67c" name="Hendrick Motorsports">
-          <owner id="df3acab4-1712-44bb-b913-897b4e20fd50" name="Rick Hendrick"/>
+        <owner id="fa27a186-b995-4493-b51b-125f9a13ce79" name="Maurice Gallagher Jr."/>
+        <team id="d3bcadb2-7125-4eaa-8495-baf1986083ff" name="GMS Racing">
+          <owner id="9df94b61-2b8b-4a1f-ab69-614652840c49" name="Maurice Gallagher Jr."/>
         </team>
       </car>
     </driver>
-    <driver id="013b2c21-c68e-4f9d-880f-10c921d181e7" first_name="Josh" last_name="Wise" full_name="Josh Wise" birthday="1983-02-07" rookie_year="2012" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Riverside, California, United States" twitter="@Josh_Wise" points_eligible="false">
-      <team id="2cc86842-c47c-49df-b62d-0e6eb2fd68a8" name="Latitude 43 Racing">
+    <driver id="10558306-a1c2-4eb9-9b23-69551309aee2" first_name="Tanner" last_name="Gray" full_name="Tanner Gray" birthday="1999-04-15" rookie_year="2020" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Mooresville, North Carolina, United States" points_eligible="true">
+      <team id="3b5249ed-a226-4107-b5e0-eaec52d818ef" name="DGR-CROSLEY">
       </team>
-    </driver>
-    <driver id="2db0c428-bdbc-4404-abe5-e804488c36b8" first_name="Derrike" last_name="Cope" full_name="Derrike Cope" height="67" birthday="1958-11-03" rookie_year="1982" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Spanaway, Washington, United States" twitter="@DCopeRacing" points_eligible="false">
-      <team id="83dfef40-7274-47fd-a9d0-ec374dab0480" name="Derrike Cope Inc.">
-        <owner id="15c61d28-3dbd-43bc-9d1c-6009fc54c4d1" name="Derrike Cope"/>
-      </team>
-    </driver>
-    <driver id="a602316b-3712-4de2-9098-7fcd887e7bd2" first_name="Parker" last_name="Kligerman" full_name="Parker Kligerman" birthday="1990-08-08" rookie_year="2011" gender="M" status="ACT" country="UNITED STATES" residence="Charlotte, North Carolina, United States" birth_place="Westport, Connecticut, United States" hobbies="Sim racing, golf, snowboarding, wakeboarding, working out" twitter="@pkligerman" points_eligible="false">
-      <car id="8ff1445f-eca2-414e-80db-09eb3b31b954" number="96" sponsors="Team USA and The Olympics" status="ACT" crew_chief="Mark Hillman">
-        <manufacturer id="73364deb-a012-4625-b759-db6a236797e3" name="Toyota"/>
-        <engine id="91db24df-134d-4c07-a13b-76266b3dd534" name="Toyota"/>
-        <owner id="7ab9b973-abc5-4451-bd22-733e4bf56ce7" name="Marty Gaunt"/>
-        <team id="6f57329d-0043-4bd2-850c-c0e6887bb02c" name="Gaunt Bros Racing">
-          <owner id="c91516c5-4028-4fcd-b53b-7bc99b690ebb" name="Marty Gaunt"/>
-        </team>
-      </car>
-    </driver>
-    <driver id="aee2919b-4d67-4e42-a4df-1f9867728e8f" first_name="Jeff" last_name="Green" full_name="Jeff Green" height="68" weight="190" birthday="1962-09-06" rookie_year="1994" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Owensboro, Kentucky, United States" twitter="@buckcentral10" points_eligible="false">
-    </driver>
-    <driver id="9e6c23b8-4c23-42a9-8f37-b58265335039" first_name="Blake" last_name="Koch" full_name="Blake Koch" birthday="1985-08-07" rookie_year="2011" gender="M" status="ACT" country="UNITED STATES" residence="Cornelius, North Carolina, United States" birth_place="West Palm Beach, Florida, United States" hobbies="Hunting, fishing, R/C cars" twitter="@BlakeKochRacing" points_eligible="false">
-    </driver>
-    <driver id="f07507f1-0a84-4b90-929d-7389dc5baab4" first_name="Landon" last_name="Cassill" full_name="Landon Cassill" height="67" birthday="1989-07-07" rookie_year="2008" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Cedar Rapids, Iowa, United States" twitter="@landoncassill" points_eligible="false">
-      <team id="ca72b90b-6d4e-4c24-bdea-cca1d04741b1" name="BK Racing">
-      </team>
-      <car id="1325ba3f-a860-4738-8216-43d8a453c906" number="00" sponsors="StarCom/Permatex/Manscaped/Iron Mountain Data Centers/CGS Imaging/Superior Essex/Home Town Lenders/KODRA Communications/Elongator Tailgates/Madison Group" status="ACT" crew_chief="Joe Williams Jr">
-        <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
-        <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
-        <owner id="2929145e-242f-4d4f-ae0c-d1a3ed1242ef" name="Derrike Cope"/>
-        <team id="108ed8c5-066a-47bb-bfbd-651542f7e530" name="StarCom Racing">
-        </team>
-      </car>
-    </driver>
-    <driver id="85080cdc-a857-4cc1-921b-5d3c4870720e" first_name="Brian" last_name="Simo" full_name="Brian Simo" birthday="1959-10-01" rookie_year="2000" gender="M" status="ACT" country="United States" points_eligible="true">
-      <team id="78277f59-e222-4509-ae3a-00e901f38718" name="Inception Motorsports">
-      </team>
-    </driver>
-    <driver id="b2be42f7-5ada-4971-bffd-7f24b31b2b88" first_name="Terry" last_name="Labonte" full_name="Terry Labonte" height="70" birthday="1956-11-16" rookie_year="1978" gender="M" status="RET" country="United States" points_eligible="true">
-      <team id="d4fd0e91-6108-4ac4-873e-258588ec2508" name="FAS Lane Racing">
-      </team>
-    </driver>
-    <driver id="9d18716c-fd73-48d4-b3da-44228c767b84" first_name="Kevin" last_name="Harvick" full_name="Kevin Harvick" height="70" weight="175" birthday="1975-12-08" rookie_year="2001" gender="M" status="ACT" country="UNITED STATES" residence="Kernersville, North Carolina, United States" birth_place="Bakersfield, California, United States" hobbies="Golf, karting, hunting " twitter="@KevinHarvick" points_eligible="true">
-      <team id="ffd3ba10-57f2-4bb8-9aaf-7c64b1ba793a" name="Richard Childress Racing">
-        <owner id="84e3b257-75b1-40ef-8774-cfb53fab90e9" name="Richard Childress"/>
-      </team>
-      <car id="6713b606-f0b9-4b23-bcf3-9f2e4e9a91a7" number="4" sponsors="Busch Beer/Jimmy Johns/Mobil 1/Hunt Brothers Pizza" status="ACT" crew_chief="Rodney Childers">
+      <car id="39d86749-7022-4347-bf5f-e1b51228825b" number="15" sponsors="Ford Performance/Turtle Beach Construction/Place of Hope" status="ACT" crew_chief="Shane Wilson">
         <manufacturer id="12844047-ab59-43ca-ab6c-c10d54931715" name="Ford"/>
         <engine id="2ff1e55b-7433-4e77-9336-07a74cc3194e" name="Ford"/>
-        <owner id="f605ad11-b0a3-423b-a1f0-220cfa224968" name="Tony Stewart"/>
-        <team id="876a07ff-ff53-4f23-9528-6d9795270244" name="Stewart Haas Racing">
-          <owner id="160c7b9e-b198-4b4d-9000-bcdc1a094cee" name="Tony Stewart"/>
+        <owner id="162d9efc-bcee-47ae-8db4-073c574f8127" name="David Gilliland"/>
+        <team id="3b5249ed-a226-4107-b5e0-eaec52d818ef" name="DGR-CROSLEY">
         </team>
       </car>
-    </driver>
-    <driver id="0cdae85e-0b1d-44d7-9614-a49aff66aeb5" first_name="Ricky" last_name="Stenhouse" full_name="Ricky Stenhouse Jr" birthday="1987-10-02" rookie_year="2010" gender="M" status="ACT" country="UNITED STATES" residence="Cornelius, North Carolina, United States" birth_place="Olive Branch, Mississippi, United States" hobbies="Golf, racquetball, basketball, working out, country music" twitter="@StenhouseJr" points_eligible="true">
-      <team id="69cd5f7e-cb9d-46c0-a2c3-c1dde01969ee" name="Roush Fenway Racing">
-      </team>
-      <car id="a7fc0b6d-da2f-4cb6-9f7d-154e5351d788" number="17" sponsors="Fastenal/Fifth Third Bank/Sunny D/Little Hug/NOS Energy Drink" status="ACT" crew_chief="Brian Pattie">
-        <manufacturer id="12844047-ab59-43ca-ab6c-c10d54931715" name="Ford"/>
-        <engine id="2ff1e55b-7433-4e77-9336-07a74cc3194e" name="Ford"/>
-        <owner id="4788307e-e269-4409-8fae-bbda98214196" name="Jack Roush"/>
-        <team id="69cd5f7e-cb9d-46c0-a2c3-c1dde01969ee" name="Roush Fenway Racing">
-        </team>
-      </car>
-    </driver>
-    <driver id="b716da8d-0bd5-4c07-809b-0230044e231b" first_name="Max" last_name="Papis" full_name="Max Papis" height="72" birthday="1969-10-03" gender="M" status="ACT" country="United States" points_eligible="false">
-    </driver>
-    <driver id="8853e676-384e-4d08-8808-970fd111f36a" first_name="Austin" last_name="Dillon" full_name="Austin Dillon" birthday="1990-04-27" rookie_year="2010" gender="M" status="ACT" country="UNITED STATES" residence="Welcome, North Carolina, United States" birth_place="Welcome, North Carolina, United States" hobbies="Hunting, fishing, racing dirt late models, working out, music" twitter="@austindillon3" points_eligible="false">
-      <team id="ffd3ba10-57f2-4bb8-9aaf-7c64b1ba793a" name="Richard Childress Racing">
-        <owner id="84e3b257-75b1-40ef-8774-cfb53fab90e9" name="Richard Childress"/>
-      </team>
-      <car id="fbee74ad-5e2d-4f54-bdf5-52b6193b04d6" number="3" sponsors="Dow Chemical/Liberty National/Bass Pro Shops/Tracker Boats/Symbicort/Realtree/Coca-Cola Zero Sugar" status="ACT" crew_chief="Danny Stockman Jr.">
-        <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
-        <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
-        <owner id="b28b1f53-bdee-4c44-97fb-bb1fd0ea4a8b" name="Richard Childress"/>
-        <team id="ffd3ba10-57f2-4bb8-9aaf-7c64b1ba793a" name="Richard Childress Racing">
-          <owner id="84e3b257-75b1-40ef-8774-cfb53fab90e9" name="Richard Childress"/>
-        </team>
-      </car>
-    </driver>
-    <driver id="fc04af5e-bd27-4e87-850c-a72e22dcb4a6" first_name="AJ" last_name="Allmendinger" full_name="AJ Allmendinger" height="66" birthday="1981-12-16" rookie_year="2007" gender="M" status="ACT" country="UNITED STATES" residence="Cornelius, North Carolina, United States" birth_place="Los Gatos, California, United States" hobbies="Golf, karting, bowling, video games" twitter="@AJDinger" points_eligible="true">
-      <team id="e337709c-9fb6-4275-ad89-d9c100e71a1d" name="Team Penske">
-        <owner id="57198af5-d912-4efc-9135-95fc6c0a3fc5" name="Roger Penske"/>
-      </team>
     </driver>
     <driver id="fe744d70-4094-4c77-bb7d-6d6d08e94087" first_name="Jason" last_name="White" full_name="Jason White" birthday="1973-03-05" gender="M" status="ACT" country="CANADA" residence=", , " birth_place="Sun Peaks, , Canada" points_eligible="false">
-      <team id="d4fd0e91-6108-4ac4-873e-258588ec2508" name="FAS Lane Racing">
+      <team id="13de6f24-4cb7-4c52-aa01-0c6e3041cb6b" name="Reaume Brothers Racing">
+      </team>
+      <car id="484f0c1e-9205-4795-830f-3ba0b61158e4" number="00" sponsors="The Ruch Life/DWF Flooring and Cabinets/Dalton Wholesale Floors/TrueHardwoods.com/The Wounded Blue/GPSTab/Powder Ventures" status="ACT" crew_chief="Andrew Abbott">
+        <manufacturer id="73364deb-a012-4625-b759-db6a236797e3" name="Toyota"/>
+        <engine id="91db24df-134d-4c07-a13b-76266b3dd534" name="Toyota"/>
+        <owner id="40866ed9-4dca-4abe-a0d1-80b534fc872d" name="Josh Reaume"/>
+        <team id="13de6f24-4cb7-4c52-aa01-0c6e3041cb6b" name="Reaume Brothers Racing">
+        </team>
+      </car>
+    </driver>
+    <driver id="85c06960-3610-4eff-9ef2-18641b84c952" first_name="Kyle" last_name="Busch" full_name="Kyle Busch" height="73" birthday="1985-05-02" rookie_year="2004" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Las Vegas, Nevada, United States" hobbies="Remote-control cars, sand cars, boating, watching Denver Broncos and Chicago Bears football" twitter="@kylebusch" points_eligible="false">
+      <team id="3f7e3372-c0fd-4414-bd68-e840a888e06a" name="Kyle Busch Motorsports">
+        <owner id="23010998-4f90-40d2-b337-ef8c48ec3334" name="Kyle Busch"/>
       </team>
     </driver>
-    <driver id="1bb7280e-78b1-4c39-9b29-0d598b4a11b3" first_name="Stacy" last_name="Compton" full_name="Stacy Compton" height="73" rookie_year="2000" gender="M" status="ACT" country="United States" points_eligible="true">
-    </driver>
-    <driver id="cacea083-0103-4efe-a386-53201df1bbfb" first_name="Scott" last_name="Riggs" full_name="Scott Riggs" height="66" birthday="1971-01-01" rookie_year="2004" gender="M" status="ACT" country="United States" birth_place="Bahama, NC, USA" points_eligible="true">
-      <team id="5a5696b6-0155-4753-a62d-8122b875b11f" name="R3 Motorsports">
+    <driver id="fb6c45e9-990e-46e3-88df-174449c13334" first_name="Ross" last_name="Chastain" full_name="Ross Chastain" birthday="1992-12-04" rookie_year="2012" gender="M" status="ACT" country="UNITED STATES" residence="Alva, Florida, United States" birth_place="Alva, Florida, United States" hobbies="Riding 4-wheelers, boating and tubing" twitter="@RossChastain" points_eligible="true">
+      <team id="7cc27046-ce42-4d9c-befc-01e9255a0a45" name="Niece Motorsports">
       </team>
     </driver>
-    <driver id="a0d5c2ae-f71b-49c7-a89d-aaa431109680" first_name="Hermie" last_name="Sadler" full_name="Hermie Sadler" height="68" birthday="1969-04-24" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Emporia, Virginia, United States" twitter="@HermieSadler" points_eligible="true">
-      <team id="ffd3ba10-57f2-4bb8-9aaf-7c64b1ba793a" name="Richard Childress Racing">
-        <owner id="84e3b257-75b1-40ef-8774-cfb53fab90e9" name="Richard Childress"/>
+    <driver id="e913a9e0-1ab4-494a-be63-7135d1f403c2" first_name="Chad" last_name="Finchum" full_name="Chad Finchum" birthday="1994-09-22" rookie_year="2018" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Knoxville, Tennessee, United States" points_eligible="false">
+      <team id="13de6f24-4cb7-4c52-aa01-0c6e3041cb6b" name="Reaume Brothers Racing">
       </team>
     </driver>
-    <driver id="181246a4-dbbf-4a62-8536-5b7b9d5f7f14" first_name="Bobby" last_name="Labonte" full_name="Bobby Labonte" height="69" birthday="1964-05-08" rookie_year="1993" gender="M" status="RET" country="UNITED STATES" residence="Trinity, North Carolina, United States" birth_place="Corpus Christi, Texas, United States" hobbies="Fishing, Cycling, Hunting" children="Robert, Madison" twitter="@Bobby_Labonte" points_eligible="true">
-      <team id="fb3e4d03-9408-43c6-b65f-61a2399a146d" name="Team Kroger Clicklist JTG Daugherty Racing">
-        <owner id="30a5532e-cde2-4164-a93d-9b6440fd9725" name="Tad Geschickter"/>
+    <driver id="4d5ede64-88da-4381-a164-13880230f74a" first_name="Johnny" last_name="Sauter" full_name="Johnny Sauter" height="71" birthday="1978-05-01" rookie_year="2009" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Necedah, Wisconsin, United States" hobbies="Late-model racing, collecting classic cars, remote-control cars" children="Penn, Joseph, Paige" twitter="@JohnnySauter" points_eligible="true">
+      <team id="d3bcadb2-7125-4eaa-8495-baf1986083ff" name="GMS Racing">
+        <owner id="9df94b61-2b8b-4a1f-ab69-614652840c49" name="Maurice Gallagher Jr."/>
+      </team>
+      <car id="9e855887-2394-48be-bfcc-7846f1cd3040" number="13" sponsors="Vivitar/Altec Lansing/Tenda/Bence Motor Sales" status="ACT" crew_chief="Joe Shear Jr.">
+        <manufacturer id="12844047-ab59-43ca-ab6c-c10d54931715" name="Ford"/>
+        <engine id="2ff1e55b-7433-4e77-9336-07a74cc3194e" name="Ford"/>
+        <owner id="35199c38-9911-4756-a09d-4a358473e4c3" name="Duke Thorson"/>
+        <team id="ba8c3992-a15c-4456-8346-ee5661202646" name="ThorSport Racing">
+          <owner id="16797fb3-fc26-4a74-8c8c-30d034619f31" name="Duke Thorson"/>
+        </team>
+      </car>
+    </driver>
+    <driver id="8b43d764-6f8a-47e7-b19c-4d83709dd2a2" first_name="Kyle" last_name="Strickler" full_name="Kyle Strickler" birthday="1983-08-03" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Mooresville, North Carolina, United States" points_eligible="true">
+      <team id="3b5249ed-a226-4107-b5e0-eaec52d818ef" name="DGR-CROSLEY">
       </team>
     </driver>
-    <driver id="ffce2031-10f8-4f36-ace1-2ea11bd77bb1" first_name="Geoffrey" last_name="Bodine" full_name="Geoffrey Bodine" height="68" birthday="1949-04-18" rookie_year="1982" gender="M" status="RET" country="United States" points_eligible="true">
-      <team id="2e77849a-7e54-45b9-b953-153c0a15e9d9" name="Gunselman Motorsports">
+    <driver id="a68c379b-6244-4bdd-8e07-6c0ebcee9d66" first_name="Raphael" last_name="Lessard" full_name="Raphael Lessard" birthday="2001-07-05" rookie_year="2020" gender="M" status="ACT" country="CANADA" residence=", , " birth_place="St.-Joseph de Beauce, , Canada" points_eligible="true">
+      <team id="3f7e3372-c0fd-4414-bd68-e840a888e06a" name="Kyle Busch Motorsports">
+        <owner id="23010998-4f90-40d2-b337-ef8c48ec3334" name="Kyle Busch"/>
+      </team>
+      <car id="218bf8e7-58ab-4ce4-9582-4f01ab23f7ed" number="4" sponsors="JBL/Mobil 1/Canac/SiriusXM" status="ACT" crew_chief="Mike Hillman Jr.">
+        <manufacturer id="73364deb-a012-4625-b759-db6a236797e3" name="Toyota"/>
+        <engine id="91db24df-134d-4c07-a13b-76266b3dd534" name="Toyota"/>
+        <owner id="fd521dac-1384-434f-86d2-19350b0a948e" name="Kyle Busch"/>
+        <team id="3f7e3372-c0fd-4414-bd68-e840a888e06a" name="Kyle Busch Motorsports">
+          <owner id="23010998-4f90-40d2-b337-ef8c48ec3334" name="Kyle Busch"/>
+        </team>
+      </car>
+    </driver>
+    <driver id="939e647d-756f-41d7-ad65-609344f64bd5" first_name="Bubba" last_name="Wallace" full_name="Bubba Wallace" birthday="1993-10-08" rookie_year="2013" gender="M" status="ACT" country="UNITED STATES" residence="Concord, North Carolina, United States" birth_place="Mobile, Alabama, United States" hobbies="Paintball, video games, snowboarding" twitter="@BubbaWallace" points_eligible="false">
+      <team id="f7519167-737a-421b-926d-7777cd61d3c0" name="AM Racing">
       </team>
     </driver>
-    <driver id="f2be52f6-d1d8-49d5-af1e-c35a32ddc4e5" first_name="Ron" last_name="Fellows" full_name="Ron Fellows" height="72" birthday="1959-09-28" rookie_year="1995" gender="M" status="ACT" country="CANADA" residence="Windsor, Ontario" points_eligible="true">
+    <driver id="01399821-2c69-4580-94dd-d1c507194f45" first_name="Brandon" last_name="Jones" full_name="Brandon Jones" birthday="1997-02-18" rookie_year="2015" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Atlanta, Georgia, United States" twitter="@brandonjonesrac" points_eligible="false">
+      <team id="3f7e3372-c0fd-4414-bd68-e840a888e06a" name="Kyle Busch Motorsports">
+        <owner id="23010998-4f90-40d2-b337-ef8c48ec3334" name="Kyle Busch"/>
+      </team>
+      <car id="4f4af796-7ff9-43b8-a024-f91989f8a57c" number="51" sponsors="Mobil 1/Cessna/Big Machine Vodka/Dupont Air Filtration/Menards/JBL/RONA/Viagara/iBUYPOWER/Magick Woods Vanities" status="ACT" crew_chief="Danny Stockman Jr.">
+        <manufacturer id="73364deb-a012-4625-b759-db6a236797e3" name="Toyota"/>
+        <engine id="91db24df-134d-4c07-a13b-76266b3dd534" name="Toyota"/>
+        <owner id="fd521dac-1384-434f-86d2-19350b0a948e" name="Kyle Busch"/>
+        <team id="3f7e3372-c0fd-4414-bd68-e840a888e06a" name="Kyle Busch Motorsports">
+          <owner id="23010998-4f90-40d2-b337-ef8c48ec3334" name="Kyle Busch"/>
+        </team>
+      </car>
     </driver>
-    <driver id="0b2a3633-d6cc-4217-bbd6-44f6ec160ed9" first_name="Casey" last_name="Mears" full_name="Casey Mears" height="68" birthday="1978-03-12" rookie_year="2003" gender="M" status="ACT" country="UNITED STATES" residence="Charlotte, North Carolina, United States" birth_place="Bakersfield, California, United States" hobbies="Wakeboarding, snowboarding, recreational off-road vehicles, vacationing" children="Samantha" twitter="@CJMearsGang" points_eligible="true">
-      <team id="5f6dc3c2-f6a6-44e9-a9a0-90d73570de24" name="Germain Racing">
+    <driver id="43c2df55-bca2-4222-84a2-2ecca07a19ba" first_name="Kyle" last_name="Plott" full_name="Kyle Plott" birthday="1996-03-08" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Marietta, Georgia, United States" points_eligible="true">
+      <team id="13de6f24-4cb7-4c52-aa01-0c6e3041cb6b" name="Reaume Brothers Racing">
       </team>
     </driver>
-    <driver id="edef1348-8e6f-478a-b2e3-97cb2d6c8879" first_name="Tony" last_name="Raines" full_name="Tony Raines" height="74" birthday="1964-04-14" rookie_year="1997" gender="M" status="ACT" country="United States" birth_place="LaPorte, IN, USA" points_eligible="false">
-      <team id="2cc86842-c47c-49df-b62d-0e6eb2fd68a8" name="Latitude 43 Racing">
+    <driver id="9c0ead27-e7d3-4861-9e2d-a77e166dc955" first_name="Grant" last_name="Enfinger" full_name="Grant Enfinger" birthday="1985-01-22" rookie_year="2017" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Fairhope, Alabama, United States" twitter="@GrantEnfinger" points_eligible="true">
+      <team id="ba8c3992-a15c-4456-8346-ee5661202646" name="ThorSport Racing">
+        <owner id="16797fb3-fc26-4a74-8c8c-30d034619f31" name="Duke Thorson"/>
+      </team>
+      <car id="e386edc1-201c-47e5-bcce-4a25660b5e37" number="98" sponsors="Champion/Protect the Harvest/Curb Records/FarmPaint" status="ACT" crew_chief="Jeff Hensley">
+        <manufacturer id="12844047-ab59-43ca-ab6c-c10d54931715" name="Ford"/>
+        <engine id="2ff1e55b-7433-4e77-9336-07a74cc3194e" name="Ford"/>
+        <owner id="835069c2-bf9f-4b22-a7f4-586504abd51d" name="Mike Curb"/>
+        <team id="ba8c3992-a15c-4456-8346-ee5661202646" name="ThorSport Racing">
+          <owner id="16797fb3-fc26-4a74-8c8c-30d034619f31" name="Duke Thorson"/>
+        </team>
+      </car>
+    </driver>
+    <driver id="17af374d-dd4d-4d7d-a9fe-98580f65bb87" first_name="Cody" last_name="McMahan" full_name="Cody McMahan" birthday="1991-12-07" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Chilhowie, Virginia, United States" points_eligible="true">
+      <team id="95eae37b-dbbd-4eb3-bfc9-7772496db36d" name="Beaver Motorsports">
+      </team>
+    </driver>
+    <driver id="4a3b588a-1f9a-43d5-8931-7109eeb7a72f" first_name="Gus" last_name="Dean" full_name="Gus Dean" birthday="1994-08-18" rookie_year="2019" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Bluffton, South Carolina, United States" points_eligible="true">
+      <team id="fae0578a-6a53-4db6-ba8a-50cc08e454e3" name="Young's Motorsports">
+      </team>
+    </driver>
+    <driver id="a602316b-3712-4de2-9098-7fcd887e7bd2" first_name="Parker" last_name="Kligerman" full_name="Parker Kligerman" birthday="1990-08-08" rookie_year="2011" gender="M" status="ACT" country="UNITED STATES" residence="Charlotte, North Carolina, United States" birth_place="Westport, Connecticut, United States" hobbies="Sim racing, golf, snowboarding, wakeboarding, working out" twitter="@pkligerman" points_eligible="true">
+      <team id="bcec7b8d-9601-445a-b59f-7323556cb710" name="Henderson Motorsports">
+      </team>
+      <car id="0518cd7c-b5eb-4286-9761-68b4365cc7ce" number="75" sponsors="Food Country USA" status="ACT" crew_chief="Chris Carrier">
+        <manufacturer id="73364deb-a012-4625-b759-db6a236797e3" name="Toyota"/>
+        <engine id="91db24df-134d-4c07-a13b-76266b3dd534" name="Toyota"/>
+        <owner id="eae24125-36ff-451b-88c7-b7610ad1f4b4" name="Charles Henderson"/>
+        <team id="bcec7b8d-9601-445a-b59f-7323556cb710" name="Henderson Motorsports">
+        </team>
+      </car>
+    </driver>
+    <driver id="1fb0e2af-80f6-4c6b-bf02-c2c96a53c1ff" first_name="Joe" last_name="Nemechek" full_name="Joe Nemechek" height="69" birthday="1963-09-26" rookie_year="1994" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, Florida, United States" birth_place="Lakeland, Florida, United States" hobbies="Fishing, skiing, motocross" children="John, Blair, Kennedy" twitter="@FrontRowJoe87" points_eligible="true">
+      <team id="1bd0412c-11f9-416f-952d-e0ebb96015ad" name="NEMCO Motorsports">
+      </team>
+      <car id="1590ba9b-2c97-4e0d-8ef3-a9293d29fda8" number="87" sponsors="Fleetwing/DAB" status="ACT" crew_chief="Duke Whiseant">
+        <manufacturer id="12844047-ab59-43ca-ab6c-c10d54931715" name="Ford"/>
+        <engine id="2ff1e55b-7433-4e77-9336-07a74cc3194e" name="Ford"/>
+        <owner id="b00d5eaa-8121-4afa-9ae4-0d156a9dedff" name="Andrea Nemechek"/>
+        <team id="1bd0412c-11f9-416f-952d-e0ebb96015ad" name="NEMCO Motorsports">
+        </team>
+      </car>
+      <car id="fa749c0f-d2e5-4943-8368-ad6b5a2661e5" number="8" sponsors="Fire Alarm Services/FHS/Fleetwing" status="ACT" crew_chief="Gere Kennon Jr.">
+        <manufacturer id="12844047-ab59-43ca-ab6c-c10d54931715" name="Ford"/>
+        <engine id="2ff1e55b-7433-4e77-9336-07a74cc3194e" name="Ford"/>
+        <owner id="c604e649-7cce-49e2-a747-d342b4599b95" name="Joe Nemechek"/>
+        <team id="1bd0412c-11f9-416f-952d-e0ebb96015ad" name="NEMCO Motorsports">
+        </team>
+      </car>
+    </driver>
+    <driver id="fbc6a827-91db-4a6f-84a1-e3c928478c90" first_name="Clay" last_name="Greenfield" full_name="Clay Greenfield" birthday="1984-06-03" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Clarksville, Tennessee, United States" twitter="@claygreenfield" points_eligible="true">
+      <team id="c925aed4-a48a-4f67-ab4a-93cbc9d7511f" name="Clay Greenfield Racing">
+        <owner id="0de7a7e6-04fc-4b46-9f2e-dbe9ebf73029" name="Clay Greenfield"/>
+      </team>
+      <car id="5b6b543a-1699-46bb-ad0d-cde2c7658e46" number="68" sponsors="Rackley Roofing/WCIparts.com" status="ACT" crew_chief="Jeff Hammond">
+        <manufacturer id="73364deb-a012-4625-b759-db6a236797e3" name="Toyota"/>
+        <engine id="91db24df-134d-4c07-a13b-76266b3dd534" name="Toyota"/>
+        <owner id="db4983eb-33e6-4211-a058-8ed2c220543a" name="Clay Greenfield"/>
+        <team id="c925aed4-a48a-4f67-ab4a-93cbc9d7511f" name="Clay Greenfield Racing">
+          <owner id="0de7a7e6-04fc-4b46-9f2e-dbe9ebf73029" name="Clay Greenfield"/>
+        </team>
+      </car>
+    </driver>
+    <driver id="1095af84-0305-45b3-8726-68b008767c1b" first_name="Dan" last_name="Corcoran" full_name="Dan Corcoran" birthday="1957-09-13" gender="M" status="ACT" country="CANADA" residence=", , " birth_place="Kingston, , Canada" points_eligible="false">
+      <team id="13de6f24-4cb7-4c52-aa01-0c6e3041cb6b" name="Reaume Brothers Racing">
+      </team>
+    </driver>
+    <driver id="cf7c7f55-30cc-49e2-b379-8b61f9a470f1" first_name="Daniel" last_name="Sasnett" full_name="Daniel Sasnett" birthday="1978-03-20" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Auburndale, Florida, United States" points_eligible="true">
+      <team id="13de6f24-4cb7-4c52-aa01-0c6e3041cb6b" name="Reaume Brothers Racing">
+      </team>
+    </driver>
+    <driver id="18377019-dea1-4ba7-ba28-a9b0b9c78d7f" first_name="Tyler" last_name="Dippel" full_name="Tyler Dippel" birthday="2000-04-05" rookie_year="2019" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Wallkill, New York, United States" points_eligible="true">
+      <team id="fae0578a-6a53-4db6-ba8a-50cc08e454e3" name="Young's Motorsports">
+      </team>
+    </driver>
+    <driver id="97526fee-9903-4b36-a556-14af234fe98f" first_name="Bobby" last_name="Gerhart" full_name="Bobby Gerhart" birthday="1958-07-21" rookie_year="1983" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Lebanon, Pennsylvania, United States" twitter="@GerhartRacing_5" points_eligible="true">
+      <team id="ecc429f4-d5ba-4232-aa11-f375e4b78f85" name="Copp Motorsports">
       </team>
     </driver>
     <driver id="3c731d6e-9acb-4ae9-9333-df5c404eb099" first_name="Travis" last_name="Kvapil" full_name="Travis Kvapil" height="72" birthday="1976-03-01" rookie_year="2005" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Janesville, Wisconsin, United States" hobbies="Green Bay Packers, riding motorcycles, muscle cars" children="Kelsey, Carson, Caden" twitter="@traviskvapil" points_eligible="true">
-    </driver>
-    <driver id="78c1af5a-9ddb-41a7-b16c-c59504832d50" first_name="David" last_name="Stremme" full_name="David Stremme" height="69" birthday="1977-06-19" rookie_year="2006" gender="M" status="ACT" country="United States" birth_place="South Bend, IN, USA" points_eligible="true">
-      <team id="78277f59-e222-4509-ae3a-00e901f38718" name="Inception Motorsports">
+      <team id="95eae37b-dbbd-4eb3-bfc9-7772496db36d" name="Beaver Motorsports">
       </team>
     </driver>
-    <driver id="1f31ccd6-cd38-42c6-acc7-dab589d2ff44" first_name="Marcos" last_name="Ambrose" full_name="Marcos Ambrose" height="71" birthday="1976-01-09" rookie_year="2007" gender="M" status="RET" country="Tasmania" birth_place="Launceston, Tasmania, AUS" points_eligible="true">
-      <team id="ee6a924b-58f4-40ea-8514-610936e32e78" name="Richard Petty Motorsports">
-        <owner id="23972c17-6476-4824-aeb2-43896e2082d9" name="Richard Petty"/>
+    <driver id="08f1b0d9-02c3-487f-b966-120c29dcb23e" first_name="Tim" last_name="Ward" full_name="Tim Ward" birthday="1994-02-23" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Harcourt, Iowa, United States" points_eligible="true">
+      <team id="a1968fe6-03fb-418d-8da9-4e2db5d033bf" name="Kart Idaho">
       </team>
     </driver>
-    <driver id="d2533eb0-7b83-4ed7-a427-7871c5f98595" first_name="Jeremy" last_name="Mayfield" full_name="Jeremy Mayfield" height="72" birthday="1969-05-27" rookie_year="1993" gender="M" status="RET" country="United States" points_eligible="false">
-      <team id="e70a3967-6371-41d5-96c7-772f9a3909fe" name="Mayfield Motorsports">
+    <driver id="86a90dad-7452-4b74-b582-b8d0190eb13b" first_name="Trey" last_name="Hutchens" full_name="Trey Hutchens III" birthday="1998-05-20" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Lexington, North Carolina, United States" points_eligible="true">
+      <team id="c1b3cb19-8f7b-4cda-a5f9-398b2338396c" name="Trey Hutchens Racing">
+      </team>
+      <car id="9dafb735-c671-474e-940d-e5ba6463135e" number="14" sponsors="Heinz Bros. Performanc" status="ACT" crew_chief="Bobby Hutchens">
+        <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
+        <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
+        <owner id="ea1f773f-0ff1-44f9-bf09-b1a2bd1b9a8b" name="Bobby Hutchens"/>
+        <team id="c1b3cb19-8f7b-4cda-a5f9-398b2338396c" name="Trey Hutchens Racing">
+        </team>
+      </car>
+    </driver>
+    <driver id="39a7c465-d85a-411b-a091-d2da3506dbb8" first_name="Alex" last_name="Tagliani" full_name="Alex Tagliani" height="68" birthday="1972-10-18" gender="M" status="ACT" country="CANADA" residence=", , " birth_place="Montreal, , Canada" twitter="@tagliani" points_eligible="true">
+      <team id="3f7e3372-c0fd-4414-bd68-e840a888e06a" name="Kyle Busch Motorsports">
+        <owner id="23010998-4f90-40d2-b337-ef8c48ec3334" name="Kyle Busch"/>
       </team>
     </driver>
-    <driver id="87c6516d-fd2d-450b-a867-d366dd667010" first_name="Tomy" last_name="Drissi" full_name="Tomy Drissi" birthday="1958-12-09" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Hollywood, California, United States" twitter="@TomyDrissi" points_eligible="true">
-      <team id="876a07ff-ff53-4f23-9528-6d9795270244" name="Stewart Haas Racing">
-        <owner id="160c7b9e-b198-4b4d-9000-bcdc1a094cee" name="Tony Stewart"/>
+    <driver id="c8fe8af7-8850-43e9-8544-8df52aa7d66b" first_name="Stewart" last_name="Friesen" full_name="Stewart Friesen" birthday="1983-07-25" rookie_year="2017" gender="M" status="ACT" country="CANADA" residence=", , " birth_place="Niagara-on-the-Lake, Ontario, Canada" points_eligible="true">
+      <team id="67539e61-d3fb-43fc-8646-f5b5be343751" name="Halmar Friesen Racing">
       </team>
-    </driver>
-    <driver id="a9988edd-7707-4a75-9ee5-d3a8cae0c8aa" first_name="Timmy" last_name="Hill" full_name="Timmy Hill" birthday="1993-02-25" rookie_year="2011" gender="M" status="ACT" country="UNITED STATES" residence="Port Tobacco, Maryland, United States" birth_place="Port Tobacco, Maryland, United States" hobbies="iRacing (ranked in top 50 in world), going to the movies, working out, bowling, going to the beach" twitter="@TimmyHillRacer" points_eligible="true">
-      <team id="d4fd0e91-6108-4ac4-873e-258588ec2508" name="FAS Lane Racing">
-      </team>
-      <car id="42fcad56-ce5c-4ebc-9f80-3daf07096bf7" number="66" sponsors="Medic Air Systems Inc/Fan Memories" status="ACT" crew_chief="Brian Keselowski">
+      <car id="05efc0a7-88b0-431b-99ef-3e32e7df9f97" number="52" sponsors="Halmar International" status="ACT" crew_chief="Tripp Bruce">
         <manufacturer id="73364deb-a012-4625-b759-db6a236797e3" name="Toyota"/>
         <engine id="91db24df-134d-4c07-a13b-76266b3dd534" name="Toyota"/>
-        <owner id="0b74529e-8d5d-4501-84e7-4a4189ced26b" name="Danielle Long"/>
-        <team id="ea36a22c-8ec3-4552-844b-4a4467a0ac0f" name="Motorsports Business Management">
+        <owner id="5720c7e7-8111-4f1f-80f7-2d0dad93b537" name="Chris Larsen"/>
+        <team id="67539e61-d3fb-43fc-8646-f5b5be343751" name="Halmar Friesen Racing">
         </team>
       </car>
     </driver>
-    <driver id="1c1f55d8-73e6-4b1e-ad08-89ed22963501" first_name="Kevin" last_name="Swindell" full_name="Kevin Swindell" gender="M" status="ACT" country="United States" points_eligible="false">
+    <driver id="cc332998-5d7e-413f-8a9b-28a46373958b" first_name="Christian" last_name="Eckes" full_name="Christian Eckes" birthday="2000-11-10" rookie_year="2020" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Greenville, New York, United States" points_eligible="true">
+      <team id="3f7e3372-c0fd-4414-bd68-e840a888e06a" name="Kyle Busch Motorsports">
+        <owner id="23010998-4f90-40d2-b337-ef8c48ec3334" name="Kyle Busch"/>
+      </team>
+      <car id="11d86508-8160-4ca5-b295-704e3c5b5880" number="18" sponsors="Safelite AutoGlass" status="ACT" crew_chief="Ryan Fugle">
+        <manufacturer id="73364deb-a012-4625-b759-db6a236797e3" name="Toyota"/>
+        <engine id="91db24df-134d-4c07-a13b-76266b3dd534" name="Toyota"/>
+        <owner id="fd521dac-1384-434f-86d2-19350b0a948e" name="Kyle Busch"/>
+        <team id="3f7e3372-c0fd-4414-bd68-e840a888e06a" name="Kyle Busch Motorsports">
+          <owner id="23010998-4f90-40d2-b337-ef8c48ec3334" name="Kyle Busch"/>
+        </team>
+      </car>
     </driver>
-    <driver id="8d1f56fe-2dca-42e1-a9ea-e78399ee512e" first_name="Justin" last_name="Marks" full_name="Justin Marks" birthday="1981-03-25" rookie_year="2008" gender="M" status="ACT" country="UNITED STATES" residence="Davidson, North Carolina, United States" birth_place="Los Altos Hills, California, United States" hobbies="Fitness, traveling, music." twitter="@JMarksDE" points_eligible="false">
-    </driver>
-    <driver id="43f74380-f969-48f1-8684-6e4cc0a4588b" first_name="Robby" last_name="Gordon" full_name="Robby Gordon" height="70" birthday="1969-01-02" rookie_year="1991" gender="M" status="RET" country="United States" points_eligible="true">
-      <team id="5cd08eec-819f-4cd6-b38c-4584d9cb3f48" name="Robby Gordon Motorsports">
+    <driver id="2d1e1b09-91eb-406a-acfc-59d1cdec326b" first_name="Mike" last_name="Senica" full_name="Mike Senica" birthday="1966-04-26" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Doylestown, Pennsylvania, United States" points_eligible="true">
+      <team id="ecc429f4-d5ba-4232-aa11-f375e4b78f85" name="Copp Motorsports">
       </team>
     </driver>
-    <driver id="dde7052f-25f0-4e9e-9779-6bc2943bac99" first_name="Trevor" last_name="Bayne" full_name="Trevor Bayne" height="71" weight="175" birthday="1991-02-19" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Knoxville, Tennessee, United States" hobbies="Snowboarding, wakeboarding" twitter="@TBayne6" points_eligible="false">
-      <team id="0dd8fd36-8bb1-4930-bfdc-d0c6be3b1a13" name="Wood Brothers">
-        <owner id="9fe6c239-ccda-43d0-9bb3-7c72606bf210" name="Wood Brothers"/>
+    <driver id="a35fd670-da61-4091-9673-60d6dc62752f" first_name="Jesse" last_name="Iwuji" full_name="Jesse Iwuji" birthday="1987-08-12" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Carrollton, Texas, United States" points_eligible="true">
+      <team id="13de6f24-4cb7-4c52-aa01-0c6e3041cb6b" name="Reaume Brothers Racing">
       </team>
     </driver>
-    <driver id="8d3bd238-e36b-4b79-98db-19f273fb163b" first_name="Juan Pablo" last_name="Montoya" full_name="Juan Pablo Montoya" height="66" birthday="1975-09-20" rookie_year="2007" gender="M" status="ACT" country="Columbia" birth_place="Bogota,, COL" points_eligible="true">
-      <team id="e9897fd1-8187-4930-814d-5d05cd43d198" name="Chip Ganassi Racing">
+    <driver id="3cd83b0d-be81-4884-80c7-00540e3489c9" first_name="Justin" last_name="Shipley" full_name="Justin Shipley" birthday="1980-06-05" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Douglasville, Georgia, United States" points_eligible="true">
+      <team id="7e667464-64f8-45f4-885d-fa43fd43dc41" name="Wallace Racing">
       </team>
     </driver>
-    <driver id="1a618e86-838d-4983-9b52-011a67cccf7a" first_name="Reed" last_name="Sorenson" full_name="Reed Sorenson" height="70" birthday="1986-02-05" rookie_year="2005" gender="M" status="ACT" country="UNITED STATES" residence="Davidson, North Carolina, United States" birth_place="Peachtree City, Georgia, United States" hobbies="Golf, water sports, fitness training" twitter="@ReedSorenson36" points_eligible="false">
-      <car id="021d546c-56ee-4399-bc87-00a526bae83d" number="27" sponsors="Low T Centers/Rim Ryderz/Soloman Plumbing/Harrah's" status="ACT" crew_chief="Tommy Baldwin">
+    <driver id="76c57d8f-a993-4c57-891d-9c456d0e0bdf" first_name="Ray" last_name="Ciccarelli" full_name="Ray Ciccarelli" birthday="1970-01-20" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Ellicott City, Maryland, United States" points_eligible="true">
+      <team id="80e86edc-2599-410f-9db9-042e3d7556eb" name="CMI Motorsports">
+        <owner id="b5cfa7f5-be2b-4031-b58d-847f96e2b736" name="Ray Ciccarelli"/>
+      </team>
+    </driver>
+    <driver id="2c1c1628-d612-45cf-951c-7626373d1c79" first_name="Sam" last_name="Mayer" full_name="Sam Mayer" birthday="2003-06-26" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Franklin, Wisconsin, United States" points_eligible="true">
+      <team id="d3bcadb2-7125-4eaa-8495-baf1986083ff" name="GMS Racing">
+        <owner id="9df94b61-2b8b-4a1f-ab69-614652840c49" name="Maurice Gallagher Jr."/>
+      </team>
+      <car id="12d8bdee-484d-4605-8b8c-3e8a4504804b" number="24" sponsors="Bama Buggies/Axalta/iRacing/Hooters/HendrickCars.com/Chevygoods.com/All Weather Armour/QPS/Armour Guard" status="ACT" crew_chief="Charles Denike">
         <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
         <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
-        <owner id="767fd447-89f5-4f9b-9cef-90805aec1aed" name="Jay Robinson"/>
-        <team id="ab68c67f-7f5f-4c26-87d1-5cd7d0fc4c25" name="Premium Motorsports">
+        <owner id="fa27a186-b995-4493-b51b-125f9a13ce79" name="Maurice Gallagher Jr."/>
+        <team id="d3bcadb2-7125-4eaa-8495-baf1986083ff" name="GMS Racing">
+          <owner id="9df94b61-2b8b-4a1f-ab69-614652840c49" name="Maurice Gallagher Jr."/>
         </team>
       </car>
     </driver>
-    <driver id="8350943b-7fa6-4a02-a550-a7305abdb1ba" first_name="Terry" last_name="Cook" full_name="Terry Cook" height="70" birthday="1968-02-26" rookie_year="2010" gender="M" status="ACT" country="United States" points_eligible="false">
-      <team id="22fde1f3-22c1-4ad6-98b6-5a322adfc80d" name="K Automotive Racing">
+    <driver id="b5610b89-dded-41b1-bb85-bac0ccf63015" first_name="Matt" last_name="Crafton" full_name="Matt Crafton" height="71" weight="160" birthday="1976-06-11" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Tulare, California, United States" hobbies="Video racing games, riding Glamis dunes in sandrail, spending time with dogs Ava and Axle" twitter="@Matt_Crafton" points_eligible="true">
+      <team id="ba8c3992-a15c-4456-8346-ee5661202646" name="ThorSport Racing">
+        <owner id="16797fb3-fc26-4a74-8c8c-30d034619f31" name="Duke Thorson"/>
+      </team>
+      <car id="7aa0ce3f-eb5c-4300-ac4d-76b705f4ebd6" number="88" sponsors="Menards/Ideal Door Garage Doors/Slim Jim" status="ACT" crew_chief="Carl Joiner Jr">
+        <manufacturer id="12844047-ab59-43ca-ab6c-c10d54931715" name="Ford"/>
+        <engine id="2ff1e55b-7433-4e77-9336-07a74cc3194e" name="Ford"/>
+        <owner id="f4e9cf74-8e13-41b7-a937-16c75bf88cff" name="Rhonda Thorson"/>
+        <team id="ba8c3992-a15c-4456-8346-ee5661202646" name="ThorSport Racing">
+          <owner id="16797fb3-fc26-4a74-8c8c-30d034619f31" name="Duke Thorson"/>
+        </team>
+      </car>
+    </driver>
+    <driver id="e989356d-2e28-4e5d-95a1-0b8a06d668dc" first_name="Chandler" last_name="Smith" full_name="Chandler Smith" birthday="2002-06-26" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Talking Rock, Georgia, United States" points_eligible="true">
+      <team id="3f7e3372-c0fd-4414-bd68-e840a888e06a" name="Kyle Busch Motorsports">
+        <owner id="23010998-4f90-40d2-b337-ef8c48ec3334" name="Kyle Busch"/>
       </team>
     </driver>
-    <driver id="4d0ce6cc-b1f6-4118-86e8-bfa501d8e1bb" first_name="Mike" last_name="Wallace" full_name="Mike Wallace" height="72" birthday="1959-03-10" rookie_year="1992" gender="M" status="RET" country="UNITED STATES" residence="Concord, North Carolina, United States" birth_place="St. Louis, Missouri, United States" hobbies="Family, flying, owning/operating heavy construction equipment" children="Lindsey, Chrissy, Matt" twitter="@MikeWallace01" points_eligible="false">
-      <team id="9723b53c-4a24-4fc7-a1f7-345d1d368f72" name="TRG Motorsports">
+    <driver id="329c2b87-4135-4bb3-982b-c9add9ebe6f6" first_name="Stefan" last_name="Parsons" full_name="Stefan Parsons" birthday="1998-06-15" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Cornelius, North Carolina, United States" points_eligible="true">
+      <team id="95eae37b-dbbd-4eb3-bfc9-7772496db36d" name="Beaver Motorsports">
       </team>
     </driver>
-    <driver id="bccf4848-e29f-4949-90d3-e6a330d7416f" first_name="Ted" last_name="Christopher" full_name="Ted Christopher" height="71" birthday="1961-03-21" rookie_year="1999" gender="M" status="ACT" country="United States" points_eligible="false">
-    </driver>
-    <driver id="894b89bd-4973-46b2-8077-003ba0d860df" first_name="Chris" last_name="Cook" full_name="Chris Cook" birthday="1971-12-23" rookie_year="2005" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Phoenix, Arizona, United States" points_eligible="true">
-    </driver>
-    <driver id="ce6079bd-2b12-4939-858c-4338c65fdbb2" first_name="Mark" last_name="Martin" full_name="Mark Martin" height="66" birthday="1959-01-09" rookie_year="1981" gender="M" status="RET" country="United States" residence="Daytona Beach, FL, USA" birth_place="Batesville, AR, USA" points_eligible="true">
-      <team id="35c6fd55-54bb-4eb4-85a2-00bfbaaea871" name="Michael Waltrip Racing">
-        <owner id="db4bc17c-739e-42e4-b10a-bd0aa234a127" name="Michael Waltrip"/>
-      </team>
-    </driver>
-    <driver id="1fb0e2af-80f6-4c6b-bf02-c2c96a53c1ff" first_name="Joe" last_name="Nemechek" full_name="Joe Nemechek" height="69" birthday="1963-09-26" rookie_year="1994" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, Florida, United States" birth_place="Lakeland, Florida, United States" hobbies="Fishing, skiing, motocross" children="John, Blair, Kennedy" twitter="@FrontRowJoe87" points_eligible="false">
+    <driver id="5b0db961-412b-40a8-84d0-c0a090f4b983" first_name="Angela" last_name="Ruch" full_name="Angela Ruch" birthday="1983-08-18" gender="F" status="ACT" country="UNITED STATES" residence=", , " birth_place="Puyallup, Washington, United States" twitter="@AmberAngelaCope" points_eligible="true">
       <team id="1bd0412c-11f9-416f-952d-e0ebb96015ad" name="NEMCO Motorsports">
       </team>
     </driver>
-    <driver id="bcf5b54b-bbbe-4653-aade-a7364e946056" first_name="Clint" last_name="Bowyer" full_name="Clint Bowyer" height="72" birthday="1979-05-30" rookie_year="2005" gender="M" status="ACT" country="UNITED STATES" residence="Clemmons, North Carolina, United States" birth_place="Emporia, Kansas, United States" hobbies="Hot rods, karting, motorcycles, dirt racing, hunting, fishing" twitter="@clintbowyer" points_eligible="true">
-      <team id="35c6fd55-54bb-4eb4-85a2-00bfbaaea871" name="Michael Waltrip Racing">
-        <owner id="db4bc17c-739e-42e4-b10a-bd0aa234a127" name="Michael Waltrip"/>
-      </team>
-      <car id="833f8004-3392-49e4-8ef9-44158a7dc92c" number="14" sponsors="Rush Truck Centers/Toco Warranty/PEAK/BlueDEF/Mobil 1/DEKLAB Asgrow Seed/Haas Automation/One Cure/ITsavvy" status="ACT" crew_chief="Mike Bugarewicz">
-        <manufacturer id="12844047-ab59-43ca-ab6c-c10d54931715" name="Ford"/>
-        <engine id="2ff1e55b-7433-4e77-9336-07a74cc3194e" name="Ford"/>
-        <owner id="975fb88e-0122-4923-8720-24e60dfb65b3" name="Margaret Haas"/>
-        <team id="876a07ff-ff53-4f23-9528-6d9795270244" name="Stewart Haas Racing">
-          <owner id="160c7b9e-b198-4b4d-9000-bcdc1a094cee" name="Tony Stewart"/>
-        </team>
-      </car>
-    </driver>
-    <driver id="b69e89f2-c10c-48e1-b082-58f664a755cf" first_name="David" last_name="Reutimann" full_name="David Reutimann" height="72" birthday="1970-03-02" rookie_year="2007" gender="M" status="ACT" country="United States" residence="Mooresville, NC, USA" birth_place="Zephyrhills, FL, USA" points_eligible="true">
-      <team id="876a07ff-ff53-4f23-9528-6d9795270244" name="Stewart Haas Racing">
-        <owner id="160c7b9e-b198-4b4d-9000-bcdc1a094cee" name="Tony Stewart"/>
+    <driver id="3ec3a264-978e-4d79-9f2a-3e2c7d38b8a0" first_name="Jesse" last_name="Little" full_name="Jesse Little" birthday="1997-04-15" rookie_year="2020" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Sherrills Ford, North Carolina, United States" twitter="@jesselittle97" points_eligible="true">
+      <team id="da74266a-3eb1-4abf-8b53-f95c3cb6fa2e" name="Team Little Racing">
       </team>
     </driver>
-    <driver id="cb239c48-8ccb-4043-a221-531b0da78765" first_name="Paul" last_name="Menard" full_name="Paul Menard" height="70" birthday="1980-08-21" rookie_year="2007" gender="M" status="ACT" country="UNITED STATES" residence="Charlotte, North Carolina, United States" birth_place="Eau Claire, Wisconsin, United States" college="University of Wisconsin-Eau Claire" hobbies="Skiing, hiking, dirt bikes, karting, boating, wakeboarding, video games" points_eligible="true">
-      <team id="ffd3ba10-57f2-4bb8-9aaf-7c64b1ba793a" name="Richard Childress Racing">
-        <owner id="84e3b257-75b1-40ef-8774-cfb53fab90e9" name="Richard Childress"/>
-      </team>
-      <car id="df4ce303-5e1b-4f90-bdd0-1e768780109c" number="21" sponsors="Menards/Motorcraft/Quick Lane Tire &amp; Auto Center" status="ACT" crew_chief="Greg Erwin">
-        <manufacturer id="12844047-ab59-43ca-ab6c-c10d54931715" name="Ford"/>
-        <engine id="2ff1e55b-7433-4e77-9336-07a74cc3194e" name="Ford"/>
-        <owner id="90731d44-8da2-45bd-a8a7-41107fc46e03" name="Glen Wood"/>
-        <team id="0dd8fd36-8bb1-4930-bfdc-d0c6be3b1a13" name="Wood Brothers">
-          <owner id="9fe6c239-ccda-43d0-9bb3-7c72606bf210" name="Wood Brothers"/>
-        </team>
-      </car>
-    </driver>
-    <driver id="81494312-bd6e-40db-a1ad-ae0eda566067" first_name="David" last_name="Gilliland" full_name="David Gilliland" height="69" birthday="1976-04-01" rookie_year="2006" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Riverside, California, United States" hobbies="Boating, Fishing" children="Todd, Taylor" twitter="@DavidGilliland" points_eligible="true">
-      <team id="bd38dfec-bb97-4f29-b032-cc6f0c77dfe6" name="Front Row Motorsports">
+    <driver id="788d2f69-6260-40c0-ad66-631a9cc0c24d" first_name="Joey" last_name="Gase" full_name="Joey Gase" birthday="1993-02-08" rookie_year="2012" gender="M" status="ACT" country="UNITED STATES" residence="Cedar Rapids, Iowa, United States" birth_place="Cedar Rapids, Iowa, United States" hobbies="Anything racing-related, outdoor activities, especially cycling" twitter="@JoeyGaseRacing" points_eligible="false">
+      <team id="3a0900b6-6ab8-4d95-87f0-f6c5a5f1e2fa" name="Jennifer Jo Cobb Racing">
+        <owner id="e2a2d65c-d5dd-4109-97de-76607b26fbb2" name="Jennifer Jo Cobb"/>
       </team>
     </driver>
-    <driver id="c6c4fe9b-137d-4787-885b-e76094cf2d07" first_name="Tony" last_name="Stewart" full_name="Tony Stewart" height="69" birthday="1971-05-20" rookie_year="1999" gender="M" status="RET" country="UNITED STATES" residence="Columbus, Indiana, United States" birth_place="Columbus, Indiana, United States" hobbies="Bowling, boating, fishing, scuba diving" twitter="@TonyStewart" points_eligible="true">
-      <team id="876a07ff-ff53-4f23-9528-6d9795270244" name="Stewart Haas Racing">
-        <owner id="160c7b9e-b198-4b4d-9000-bcdc1a094cee" name="Tony Stewart"/>
+    <driver id="c11cad13-bcf3-47ea-bb7f-be2b4d8d8e18" first_name="Brett" last_name="Moffitt" full_name="Brett Moffitt" birthday="1992-08-07" rookie_year="2015" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Grimes, Iowa, United States" twitter="@Brett_Moffitt" points_eligible="true">
+      <team id="d3bcadb2-7125-4eaa-8495-baf1986083ff" name="GMS Racing">
+        <owner id="9df94b61-2b8b-4a1f-ab69-614652840c49" name="Maurice Gallagher Jr."/>
       </team>
-    </driver>
-    <driver id="25c863f1-d98b-414e-857d-b0d3bc981f2a" first_name="Regan" last_name="Smith" full_name="Regan Smith" height="69" birthday="1983-09-23" rookie_year="2008" gender="M" status="ACT" country="UNITED STATES" residence="Denver, Colorado, United States" birth_place="Cato, New York, United States" hobbies="Snowboarding, fishing, golf, video games" twitter="@ReganSmith" points_eligible="false">
-      <team id="e5b5fce6-3997-4fa8-adf1-bad017a7bda5" name="Phoenix Racing">
-      </team>
-    </driver>
-    <driver id="2a4e0d2c-4d71-4e2b-b0cf-8d5f61ac8ad9" first_name="Mike" last_name="Garvey" full_name="Mike Garvey" birthday="1962-09-13" rookie_year="2005" gender="M" status="ACT" country="United States" points_eligible="false">
-      <team id="ccb53045-f628-48de-9f30-3fb46f9e32f6" name="Revelocity Racing">
-      </team>
-    </driver>
-    <driver id="78f86455-921f-4d3e-8911-1bfd73c94172" first_name="Ken" last_name="Schrader" full_name="Ken Schrader" height="69" birthday="1955-05-29" rookie_year="1984" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Fenton, Missouri, United States" twitter="@KenSchrader" points_eligible="true">
-      <team id="d4fd0e91-6108-4ac4-873e-258588ec2508" name="FAS Lane Racing">
-      </team>
-    </driver>
-    <driver id="e13afeb8-b199-4bf5-8404-5edfdc617565" first_name="Justin" last_name="Allgaier" full_name="Justin Allgaier" birthday="1986-06-06" rookie_year="2008" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Riverton, Illinois, United States" hobbies="R/C cars, wakeboarding, graphic design, target shooting" twitter="@J_Allgaier" points_eligible="false">
-    </driver>
-    <driver id="f8d8ff36-bfcf-4d98-8eb2-353f1e8d3c34" first_name="Jamie" last_name="McMurray" full_name="Jamie McMurray" height="68" birthday="1976-06-03" rookie_year="2003" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Joplin, Missouri, United States" hobbies="Karting, golf, fishing " children="Carter" twitter="@JamieMcMurray" points_eligible="true">
-      <team id="e9897fd1-8187-4930-814d-5d05cd43d198" name="Chip Ganassi Racing">
-      </team>
-      <car id="8f2492c9-c421-43dd-a338-f27d4133ed73" number="40" sponsors="McDonald's/Cessna/AdventHealth/Bass Pro Shops" status="ACT" crew_chief="Scott Eggleston">
+      <car id="535dc548-f0b2-4834-8e18-a072d1b9d64c" number="23" sponsors="Fr8 Auctions/CMR Construction &amp; Roofing/Allegiant/Superior Essex/Plan B Sales/Arlon Graphics/Destiny Homes/Concrete Supply" status="ACT" crew_chief="Chad Norris">
         <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
         <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
-        <owner id="beaaedde-491d-4a5e-a449-36f7d6383588" name="Chip Ganassi"/>
-        <team id="9f742920-6e44-4581-8a61-e8c38cf21da4" name="Spire Motorsports">
+        <owner id="fa27a186-b995-4493-b51b-125f9a13ce79" name="Maurice Gallagher Jr."/>
+        <team id="d3bcadb2-7125-4eaa-8495-baf1986083ff" name="GMS Racing">
+          <owner id="9df94b61-2b8b-4a1f-ab69-614652840c49" name="Maurice Gallagher Jr."/>
         </team>
       </car>
     </driver>
-    <driver id="786982d1-3653-49d8-83e6-06d2a65713c8" first_name="Bill" last_name="Elliott" full_name="Bill Elliott" height="73" birthday="1955-10-08" rookie_year="1976" gender="M" status="RET" country="UNITED STATES" residence=", , " birth_place="Dawsonville, Georgia, United States" points_eligible="true">
+    <driver id="069ba6f3-97c0-4172-826a-36c605918e99" first_name="Dawson" last_name="Cram" full_name="Dawson Cram" birthday="2001-09-12" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Mooresville, North Carolina, United States" points_eligible="true">
+      <team id="ecc429f4-d5ba-4232-aa11-f375e4b78f85" name="Copp Motorsports">
+      </team>
+      <car id="002dd255-b667-4cd6-a6ac-8e99700e11ae" number="55" sponsors="American Mask Company/LongMotorsports1.com" status="ACT" crew_chief="Kevin Cram">
+        <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
+        <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
+        <owner id="11515e01-8e40-4e72-aae7-0f08d7046bf6" name="Boyd Long Jr."/>
+        <team id="714878be-e7d0-41f7-9dd6-a0ca455c3336" name="Long Motorsports">
+        </team>
+      </car>
+      <car id="4a75b16e-1d6d-4766-be86-983153c6f6ba" number="41" sponsors="Hustler/Land &amp; Coats/Armour Guard" status="ACT" crew_chief="Kevin Cram">
+        <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
+        <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
+        <owner id="2b9e40e5-f9a1-47fa-b984-33baf8487e84" name="Kevin Cram"/>
+        <team id="ebe549f2-f8a7-4d7b-a761-206adc5b6c2c" name="Cram Racing Enterprises">
+        </team>
+      </car>
+    </driver>
+    <driver id="81228be2-3223-4e34-80d3-e68f616e8fc6" first_name="Ryan" last_name="Sieg" full_name="Ryan Sieg" birthday="1987-06-20" rookie_year="2014" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Tucker, Georgia, United States" twitter="@RyanSiegRacing" points_eligible="false">
+      <team id="13de6f24-4cb7-4c52-aa01-0c6e3041cb6b" name="Reaume Brothers Racing">
+      </team>
+    </driver>
+    <driver id="1a64406d-c51c-47ce-8fb9-a5bb62eb0d9f" first_name="Austin" last_name="Hill" full_name="Austin Hill" birthday="1994-04-21" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Winston, Georgia, United States" twitter="@_AustinHill" points_eligible="true">
+      <team id="3a08d3ee-e9dc-44d9-aa8d-a02fec168d9a" name="Hattori Racing Enterprises">
+        <owner id="e02de6c3-fc82-4886-ac17-444824df1b42" name="Shigeaki Hattori"/>
+      </team>
+      <car id="635d2bcc-f313-4b46-8b8c-251b2d502137" number="16" sponsors="United Rentals/Toyota Tsusho" status="ACT" crew_chief="Scott Zipadelli">
+        <manufacturer id="73364deb-a012-4625-b759-db6a236797e3" name="Toyota"/>
+        <engine id="91db24df-134d-4c07-a13b-76266b3dd534" name="Toyota"/>
+        <owner id="4f64dae6-8f6a-44c0-a7a5-ef7b23ae75d9" name="Shigeaki Hattori"/>
+        <team id="3a08d3ee-e9dc-44d9-aa8d-a02fec168d9a" name="Hattori Racing Enterprises">
+          <owner id="e02de6c3-fc82-4886-ac17-444824df1b42" name="Shigeaki Hattori"/>
+        </team>
+      </car>
+    </driver>
+    <driver id="be1d865e-b048-4efc-a81d-b8acb199d15f" first_name="Gary" last_name="Klutt" full_name="Gary Klutt" birthday="1992-08-14" gender="M" status="ACT" country="CANADA" residence=", , " birth_place="Halton Hills, , Canada" points_eligible="true">
+      <team id="7cc27046-ce42-4d9c-befc-01e9255a0a45" name="Niece Motorsports">
+      </team>
+    </driver>
+    <driver id="d5435cba-2102-49e4-a1d8-389b11530304" first_name="Jennifer Jo" last_name="Cobb" full_name="Jennifer Jo Cobb" birthday="1973-06-12" rookie_year="2010" gender="F" status="ACT" country="UNITED STATES" residence="Kansas City, Kansas, United States" birth_place="Kansas City, Kansas, United States" hobbies="Working out, traveling, reading, shopping" twitter="@JenJoCobb" points_eligible="true">
+      <team id="3a0900b6-6ab8-4d95-87f0-f6c5a5f1e2fa" name="Jennifer Jo Cobb Racing">
+        <owner id="e2a2d65c-d5dd-4109-97de-76607b26fbb2" name="Jennifer Jo Cobb"/>
+      </team>
+      <car id="0bcf9974-3b42-4996-bd51-60ef861d9e9e" number="10" sponsors="Driven2Honor.org/Newnan Peachtree Dodge/Fastener Supply Company" status="ACT" crew_chief="Brian Keselowski">
+        <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
+        <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
+        <owner id="9b8a1247-2af4-49d1-a7e3-59b786ed1f78" name="Jennifer Jo Cobb"/>
+        <team id="3a0900b6-6ab8-4d95-87f0-f6c5a5f1e2fa" name="Jennifer Jo Cobb Racing">
+          <owner id="e2a2d65c-d5dd-4109-97de-76607b26fbb2" name="Jennifer Jo Cobb"/>
+        </team>
+      </car>
+    </driver>
+    <driver id="391aecc5-94ea-4707-a1bf-e51fddd158e7" first_name="Derek" last_name="Kraus" full_name="Derek Kraus" birthday="2001-09-01" rookie_year="2020" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Stratford, Wisconsin, United States" points_eligible="true">
+      <team id="48dbdff9-513a-4c78-894d-00f29c835cf8" name="Bill McAnally Racing">
+        <owner id="622cc6ce-9865-4ebf-8993-c7b3e7214cb5" name="Bill McAnally"/>
+      </team>
+      <car id="3baf6f79-4ef8-4e7f-8f98-389d41c886c5" number="19" sponsors="Eneos/NAPA Filters/Shockwave Marine Suspension Seating/Gates Hydraulics/Incredible Bank" status="ACT" crew_chief="Kevin Bellicourt">
+        <manufacturer id="73364deb-a012-4625-b759-db6a236797e3" name="Toyota"/>
+        <engine id="91db24df-134d-4c07-a13b-76266b3dd534" name="Toyota"/>
+        <owner id="71035cfb-7a07-47bb-ad55-3383ca476406" name="Bill McAnally"/>
+        <team id="2dfe49de-a9cf-4ffe-9d50-1a7ff9386408" name="McAnally-Hilgemann Racing">
+        </team>
+      </car>
+    </driver>
+    <driver id="ce805205-7fa6-46b7-980a-d3017d870be7" first_name="Spencer" last_name="Boyd" full_name="Spencer Boyd" birthday="1995-06-26" rookie_year="2018" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="St. Louis, Missouri, United States" points_eligible="true">
+      <team id="fae0578a-6a53-4db6-ba8a-50cc08e454e3" name="Young's Motorsports">
+      </team>
+      <car id="30903766-1649-4ba7-9649-b724afa64da7" number="20" sponsors="CuraLife/American Pavement Specialists/Orion Cooker/Spike's Tactical/HairClub/Crowe Equipment Inc/M &amp; D Blacktop/Dan-o's Seasoning/Rich Mar Florist/HairClub/Alabama Roofing Professionals/Concealment Express" status="ACT" crew_chief="Joe Lax">
+        <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
+        <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
+        <owner id="79fc8dc7-91c5-441b-8bc9-c64021df9d35" name="Rebecca Young"/>
+        <team id="fae0578a-6a53-4db6-ba8a-50cc08e454e3" name="Young's Motorsports">
+        </team>
+      </car>
+    </driver>
+    <driver id="c7beb5c5-3d88-4dec-881f-793e68ee2d19" first_name="Jeb" last_name="Burton" full_name="Jeb Burton" birthday="1992-08-06" rookie_year="2013" gender="M" status="ACT" country="UNITED STATES" residence="Halifax, Virginia, United States" birth_place="Halifax, Virginia, United States" hobbies="Racing, conservation, hunting, fishing, riding JetSki's and ATV's" twitter="@JebBurtonRacing" points_eligible="false">
+      <team id="7cc27046-ce42-4d9c-befc-01e9255a0a45" name="Niece Motorsports">
+      </team>
+    </driver>
+    <driver id="6b94aa52-e320-4388-9039-48a2f6df2ce4" first_name="Natalie" last_name="Decker" full_name="Natalie Decker" birthday="1997-06-25" rookie_year="2019" gender="F" status="ACT" country="UNITED STATES" residence=", , " birth_place="Eagle River, Wisconsin, United States" points_eligible="true">
+      <team id="3b5249ed-a226-4107-b5e0-eaec52d818ef" name="DGR-CROSLEY">
+      </team>
+      <car id="0cb63de5-0e76-455a-a80f-7bc3ba76eb92" number="44" sponsors="N29 Technologies/Remarkable Pillow/State Water Heaters/Alsco/Florida Watermelon Association/Ruedebusch/12 Hour AuctionsThe Rosie Network" status="ACT" crew_chief="Paul Clapprood">
+        <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
+        <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
+        <owner id="a802720a-16f9-4cfd-a89b-33dc69ff67c3" name="Al Niece"/>
+        <team id="7cc27046-ce42-4d9c-befc-01e9255a0a45" name="Niece Motorsports">
+        </team>
+      </car>
+    </driver>
+    <driver id="27d6e4ac-466b-448e-aab4-0bc2dd62db7c" first_name="Colby" last_name="Howard" full_name="Colby Howard" birthday="2001-10-28" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Simpsonville, South Carolina, United States" points_eligible="true">
+      <team id="fae0578a-6a53-4db6-ba8a-50cc08e454e3" name="Young's Motorsports">
+      </team>
+    </driver>
+    <driver id="aaf8b44f-d95a-4bc1-ac93-759a1d88c825" first_name="Norm" last_name="Benning" full_name="Norm Benning" height="70" birthday="1952-01-16" rookie_year="1989" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Level Green, Pennsylvania, United States" twitter="@RacingNorm" points_eligible="true">
+      <team id="bbf24c3d-db98-41db-b784-5c5bc6b45295" name="Norm Benning Racing">
+        <owner id="ce1804df-7833-418f-84ec-3d0b000807b9" name="Norm Benning"/>
+      </team>
+      <car id="925f9b29-f1a8-4354-9f9b-475d929fb324" number="6" sponsors="H&amp;H Transport" status="ACT" crew_chief="Bill Johnson">
+        <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
+        <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
+        <owner id="a92cc174-b209-4cf4-b119-3bd7ba1dd13c" name="Norm Benning"/>
+        <team id="bbf24c3d-db98-41db-b784-5c5bc6b45295" name="Norm Benning Racing">
+          <owner id="ce1804df-7833-418f-84ec-3d0b000807b9" name="Norm Benning"/>
+        </team>
+      </car>
+    </driver>
+    <driver id="a5891e68-dca9-4ea7-9b28-57bd29d166b1" first_name="Greg" last_name="Rayl" full_name="Greg Rayl" birthday="1963-11-20" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Salida, California, United States" points_eligible="false">
+      <team id="3a0900b6-6ab8-4d95-87f0-f6c5a5f1e2fa" name="Jennifer Jo Cobb Racing">
+        <owner id="e2a2d65c-d5dd-4109-97de-76607b26fbb2" name="Jennifer Jo Cobb"/>
+      </team>
+    </driver>
+    <driver id="434eb5c2-23e5-44c3-ac41-9695c900d748" first_name="Anthony" last_name="Alfredo" full_name="Anthony Alfredo" birthday="1999-03-31" rookie_year="2019" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Ridgefield, Connecticut, United States" points_eligible="true">
+      <team id="3b5249ed-a226-4107-b5e0-eaec52d818ef" name="DGR-CROSLEY">
+      </team>
+    </driver>
+    <driver id="d259900a-e2e7-4612-b201-178bb80a862c" first_name="Josh" last_name="Bilicki" full_name="Josh Bilicki" birthday="1995-06-03" rookie_year="2018" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Menomonee Falls, Wisconsin, United States" points_eligible="false">
+      <team id="13de6f24-4cb7-4c52-aa01-0c6e3041cb6b" name="Reaume Brothers Racing">
+      </team>
+    </driver>
+    <driver id="97a4a46c-baa3-4bff-8068-2fc347e37d9a" first_name="Brennan" last_name="Poole" full_name="Brennan Poole" birthday="1991-04-11" rookie_year="2016" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="The Woodlands, Texas, United States" twitter="@brennanpoole" points_eligible="true">
+      <team id="dfd54704-309d-4d56-a2f4-6b5b38b8d8b8" name="On Point Motorsports">
+      </team>
+      <car id="7ed7f29a-af83-4a0e-8dfe-53f701fc8fd7" number="29" sponsors="RememberEveryoneDeployed.org" status="ACT" crew_chief="Steve Lane">
+        <manufacturer id="73364deb-a012-4625-b759-db6a236797e3" name="Toyota"/>
+        <engine id="91db24df-134d-4c07-a13b-76266b3dd534" name="Toyota"/>
+        <owner id="83ef092e-8abc-463a-b2ea-5b6b6e4a6366" name="Maria Gonzalez Hernandez"/>
+        <team id="dfd54704-309d-4d56-a2f4-6b5b38b8d8b8" name="On Point Motorsports">
+        </team>
+      </car>
+    </driver>
+    <driver id="f94ab49b-770a-4863-83ef-036994463349" first_name="Bobby" last_name="Reuse" full_name="Bobby Reuse" birthday="1970-05-18" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Birmingham, Alabama, United States" twitter="@bobaru" points_eligible="true">
+      <team id="64954cbd-24b2-4a40-a72d-72deed5a5b54" name="Hill Motorsports">
+      </team>
+    </driver>
+    <driver id="f47f639d-d056-43a8-bde2-c9d1747a3799" first_name="Landon" last_name="Huffman" full_name="Landon Huffman" birthday="1996-01-30" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Claremont, North Carolina, United States" points_eligible="false">
+      <team id="fae0578a-6a53-4db6-ba8a-50cc08e454e3" name="Young's Motorsports">
+      </team>
+    </driver>
+    <driver id="8853e676-384e-4d08-8808-970fd111f36a" first_name="Austin" last_name="Dillon" full_name="Austin Dillon" birthday="1990-04-27" rookie_year="2010" gender="M" status="ACT" country="UNITED STATES" residence="Welcome, North Carolina, United States" birth_place="Welcome, North Carolina, United States" hobbies="Hunting, fishing, racing dirt late models, working out, music" twitter="@austindillon3" points_eligible="false">
       <team id="1bd0412c-11f9-416f-952d-e0ebb96015ad" name="NEMCO Motorsports">
       </team>
     </driver>
-    <driver id="53ee4efd-5ce3-4b60-ae2b-6b685a79caae" first_name="Robert" last_name="Richardson" full_name="Robert Richardson" birthday="1982-04-04" gender="M" status="ACT" country="UNITED STATES" residence="Charlotte, North Carolina, United States" birth_place="McKinney, Texas, United States" hobbies="Hunting, fishing, studio artwork" points_eligible="false">
-      <team id="5a5696b6-0155-4753-a62d-8122b875b11f" name="R3 Motorsports">
+    <driver id="4432ecf0-1514-4535-ae26-10787fedfb9c" first_name="Timothy" last_name="Peters" full_name="Timothy Peters" birthday="1980-08-29" gender="M" status="ACT" country="UNITED STATES" residence="Danville, Virginia, United States" birth_place="Providence, North Carolina, United States" hobbies="Fishing" twitter="@TimothyPeters17" points_eligible="true">
+      <team id="7cc27046-ce42-4d9c-befc-01e9255a0a45" name="Niece Motorsports">
       </team>
     </driver>
-    <driver id="fc60204c-116b-40d8-a59e-a565e54e3fda" first_name="Dale" last_name="Earnhardt" full_name="Dale Earnhardt Jr" height="72" weight="165" birthday="1974-10-10" rookie_year="1998" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Kannapolis, North Carolina, United States" hobbies="Hanging out at home, music, computer gaming, NASCAR history" twitter="@DaleJr" points_eligible="true">
-      <team id="8427da4c-9c88-4849-9242-0c184d5ed67c" name="Hendrick Motorsports">
-        <owner id="df3acab4-1712-44bb-b913-897b4e20fd50" name="Rick Hendrick"/>
+    <driver id="8dd98524-b888-4f59-a32c-f6b66b3730b6" first_name="Sheldon" last_name="Creed" full_name="Sheldon Creed" birthday="1997-09-30" rookie_year="2019" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Alpine, California, United States" points_eligible="true">
+      <team id="d3bcadb2-7125-4eaa-8495-baf1986083ff" name="GMS Racing">
+        <owner id="9df94b61-2b8b-4a1f-ab69-614652840c49" name="Maurice Gallagher Jr."/>
       </team>
-    </driver>
-    <driver id="0ce4113d-34c8-4272-b658-3b929238dbd3" first_name="Brad" last_name="Keselowski" full_name="Brad Keselowski" height="70" birthday="1984-02-12" rookie_year="2010" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Rochester Hills, Michigan, United States" hobbies="Online racing, video games, University of Michigan football" twitter="@keselowski" points_eligible="true">
-      <team id="e337709c-9fb6-4275-ad89-d9c100e71a1d" name="Team Penske">
-        <owner id="57198af5-d912-4efc-9135-95fc6c0a3fc5" name="Roger Penske"/>
-      </team>
-      <car id="3d0cf0c8-f933-48ac-a935-71f1d18d4bd5" number="2" sponsors="Miller Lite/Discount Tire/AutoTrader.com/Reese/DrawTite/Snap-On/Wurth/Wabash National" status="ACT" crew_chief="Paul Wolfe">
-        <manufacturer id="12844047-ab59-43ca-ab6c-c10d54931715" name="Ford"/>
-        <engine id="2ff1e55b-7433-4e77-9336-07a74cc3194e" name="Ford"/>
-        <owner id="3a02ed9a-855e-446a-b71b-876861b84f60" name="Roger Penske"/>
-        <team id="e337709c-9fb6-4275-ad89-d9c100e71a1d" name="Team Penske">
-          <owner id="57198af5-d912-4efc-9135-95fc6c0a3fc5" name="Roger Penske"/>
+      <car id="2771a585-65da-4c44-b1d0-4ee1bd936592" number="2" sponsors="Chevrolet Accessories/Trench Shoring/Chevy Truck Month" status="ACT" crew_chief="Jeff Stankiewicz">
+        <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
+        <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
+        <owner id="fa27a186-b995-4493-b51b-125f9a13ce79" name="Maurice Gallagher Jr."/>
+        <team id="d3bcadb2-7125-4eaa-8495-baf1986083ff" name="GMS Racing">
+          <owner id="9df94b61-2b8b-4a1f-ab69-614652840c49" name="Maurice Gallagher Jr."/>
         </team>
       </car>
     </driver>
-    <driver id="7c71581b-13ea-4fbe-8398-25f825381d04" first_name="Dave" last_name="Blaney" full_name="Dave Blaney" height="68" birthday="1962-10-24" rookie_year="1992" gender="M" status="ACT" country="United States" birth_place="Hartford Township, OH, USA" points_eligible="true">
-      <team id="d7fa0cd7-5376-4425-b046-90eafc2c7394" name="Tommy Baldwin Racing">
+    <driver id="a8a8b1eb-cb38-4292-ab26-8e7febe6d831" first_name="Codie" last_name="Rohrbaugh" full_name="Codie Rohrbaugh" birthday="1993-11-12" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Petersburg, West Virginia, United States" points_eligible="true">
+      <team id="e1b49d69-7010-4a49-a99f-c8e6e43778cb" name="CR7 Motorsports">
+      </team>
+      <car id="8b52d065-e8e4-42f8-83cb-8aca2bf022a5" number="9" sponsors="Grant County Mulch/Pray For Joshua" status="ACT" crew_chief="Doug George">
+        <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
+        <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
+        <owner id="734c448a-035c-4219-a4ab-4cf3fa4a0178" name="Larry Berg"/>
+        <team id="e1b49d69-7010-4a49-a99f-c8e6e43778cb" name="CR7 Motorsports">
+        </team>
+      </car>
+    </driver>
+    <driver id="25ca1ab3-b013-48cb-b4a4-c10fb45ba397" first_name="Chase" last_name="Briscoe" full_name="Chase Briscoe" birthday="1994-12-15" rookie_year="2017" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Mitchell, Indiana, United States" points_eligible="false">
+      <team id="ba8c3992-a15c-4456-8346-ee5661202646" name="ThorSport Racing">
+        <owner id="16797fb3-fc26-4a74-8c8c-30d034619f31" name="Duke Thorson"/>
       </team>
     </driver>
-    <driver id="30180a89-d256-4ab3-aa14-cd5aaab61737" first_name="Cole" last_name="Whitt" full_name="Cole Whitt" birthday="1991-06-22" rookie_year="2011" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Alpine, California, United States" hobbies="Boating, fishing, hunting, video games" twitter="@colewhitt" points_eligible="false">
-      <team id="ffd3ba10-57f2-4bb8-9aaf-7c64b1ba793a" name="Richard Childress Racing">
-        <owner id="84e3b257-75b1-40ef-8774-cfb53fab90e9" name="Richard Childress"/>
+    <driver id="6db2400f-0fd5-49af-ae80-64f26385b9f2" first_name="Greg" last_name="Biffle" full_name="Greg Biffle" height="69" birthday="1969-12-23" rookie_year="2003" gender="M" status="RET" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Vancouver, Washington, United States" hobbies="Cars, boating, fishing, flying" children="Emma" twitter="@gbiffle" points_eligible="true">
+      <team id="3f7e3372-c0fd-4414-bd68-e840a888e06a" name="Kyle Busch Motorsports">
+        <owner id="23010998-4f90-40d2-b337-ef8c48ec3334" name="Kyle Busch"/>
       </team>
     </driver>
-    <driver id="3c1c8459-ea46-4df5-b494-7b8072b70664" first_name="T.J." last_name="Bell" full_name="T.J. Bell" birthday="1980-08-25" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Reno, Nevada, United States" hobbies="Wakeboarding, biking, soccer" twitter="@TJBell_racing" points_eligible="false">
-      <team id="d4fd0e91-6108-4ac4-873e-258588ec2508" name="FAS Lane Racing">
+    <driver id="248d899e-188a-480f-8187-843bd158a2e7" first_name="Chad" last_name="Finley" full_name="Chad Finley" birthday="1992-03-17" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Dewitt, Michigan, United States" twitter="@Chad_Finley" points_eligible="true">
+      <team id="064c96af-6e05-426d-b020-c5f1747c70c3" name="Chad Finley Racing Inc.">
       </team>
     </driver>
-    <driver id="96fdd8d7-3776-42b8-baf2-6b4e2cf2d83d" first_name="Michael" last_name="McDowell" full_name="Michael McDowell" birthday="1984-12-21" rookie_year="2009" gender="M" status="ACT" country="UNITED STATES" residence="Huntersville, North Carolina, United States" birth_place="Glendale, Arizona, United States" hobbies="Faith, family, wakeboarding, simulation racing, racquetball, karting" children="Trace" twitter="@Mc_Driver" points_eligible="true">
-      <team id="21360eef-7d17-47a6-a349-5ad5d0d59b87" name="HP Racing">
+    <driver id="e71b88ec-f12c-4acd-bbc7-726833477f1f" first_name="Ty" last_name="Majeski" full_name="Ty Majeski" birthday="1994-08-18" rookie_year="2020" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Seymour, Wisconsin, United States" points_eligible="true">
+      <team id="7cc27046-ce42-4d9c-befc-01e9255a0a45" name="Niece Motorsports">
       </team>
-      <car id="89e035f0-87f6-4835-ac58-8b7da32de4a4" number="34" sponsors="Love's Travel Stops/FR8 Auctions/A&amp;W All American Foods/Dockside Logistics/Melling Engine Parts" status="ACT" crew_chief="Drew Blickensderfer">
+    </driver>
+    <driver id="32251b56-7387-4ade-8482-0917553218f4" first_name="JJ" last_name="Yeley" full_name="JJ Yeley" height="68" birthday="1976-10-05" rookie_year="2006" gender="M" status="ACT" country="UNITED STATES" residence="Charlotte, North Carolina, United States" birth_place="Phoenix, Arizona, United States" hobbies="Golf" children="Faith" twitter="@jjyeley1" points_eligible="false">
+      <team id="13de6f24-4cb7-4c52-aa01-0c6e3041cb6b" name="Reaume Brothers Racing">
+      </team>
+    </driver>
+    <driver id="198c8de5-9175-4c42-acad-a1d8de6df398" first_name="Harrison" last_name="Burton" full_name="Harrison Burton" birthday="2000-10-09" rookie_year="2019" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Huntersville, North Carolina, United States" points_eligible="true">
+      <team id="3f7e3372-c0fd-4414-bd68-e840a888e06a" name="Kyle Busch Motorsports">
+        <owner id="23010998-4f90-40d2-b337-ef8c48ec3334" name="Kyle Busch"/>
+      </team>
+    </driver>
+    <driver id="e4522ae3-a66d-42e6-992d-f4ea7dd3284c" first_name="Carson" last_name="Hocevar" full_name="Carson Hocevar" birthday="2003-01-28" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Portage, Michigan, United States" points_eligible="true">
+      <team id="88f48e89-2106-419a-b411-091cedbe7c53" name="Jordan Anderson Racing">
+        <owner id="0a717f55-e9fa-4a57-b367-c8a224cb4d03" name="Jordan Anderson"/>
+      </team>
+      <car id="4b60888c-1cc2-4691-b6e4-9568b503b00e" number="42" sponsors="Florida Watermelon Association/Shelby Park/iRacing/GMPartsNow" status="ACT" crew_chief="Cody Efaw">
+        <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
+        <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
+        <owner id="a802720a-16f9-4cfd-a89b-33dc69ff67c3" name="Al Niece"/>
+        <team id="7cc27046-ce42-4d9c-befc-01e9255a0a45" name="Niece Motorsports">
+        </team>
+      </car>
+    </driver>
+    <driver id="e325d299-6458-4db8-9a5c-c836b8e4d56f" first_name="Anthony" last_name="Mrakovich" full_name="Anthony Mrakovich" birthday="1999-01-05" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Elizabethtown, Pennsylvania, United States" points_eligible="true">
+      <team id="a58d765a-0cb5-48ef-be65-63106206c11d" name="Tony Mrakovich Racing">
+      </team>
+    </driver>
+    <driver id="7ec39c5e-a620-401f-82f7-50713b7c4b30" first_name="Myatt" last_name="Snider" full_name="Myatt Snider" birthday="1994-12-30" rookie_year="2018" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Charlotte, North Carolina, United States" points_eligible="true">
+      <team id="ba8c3992-a15c-4456-8346-ee5661202646" name="ThorSport Racing">
+        <owner id="16797fb3-fc26-4a74-8c8c-30d034619f31" name="Duke Thorson"/>
+      </team>
+    </driver>
+    <driver id="b1674f2f-dbc1-4c70-8fda-bb541fc39b04" first_name="Jordan" last_name="Anderson" full_name="Jordan Anderson" birthday="1991-04-15" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Forest Acres, South Carolina, United States" twitter="@j66anderson" points_eligible="true">
+      <team id="88f48e89-2106-419a-b411-091cedbe7c53" name="Jordan Anderson Racing">
+        <owner id="0a717f55-e9fa-4a57-b367-c8a224cb4d03" name="Jordan Anderson"/>
+      </team>
+      <car id="581d3159-3c80-497c-b50f-90af99da0c23" number="3" sponsors="K-Seal/Bommarito.com/Capital City Towing/US Law Shield" status="ACT" crew_chief="Danny Ketterman Jr.">
+        <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
+        <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
+        <owner id="e3715435-9df3-4526-8c15-b4f92e7ee5a9" name="Jordan Anderson"/>
+        <team id="88f48e89-2106-419a-b411-091cedbe7c53" name="Jordan Anderson Racing">
+          <owner id="0a717f55-e9fa-4a57-b367-c8a224cb4d03" name="Jordan Anderson"/>
+        </team>
+      </car>
+    </driver>
+    <driver id="a374590a-c82e-4ee4-9623-ba7d3ee82aad" first_name="Camden" last_name="Murphy" full_name="Camden Murphy" birthday="1996-07-23" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Itasca, Illinois, United States" twitter="@CamdenMurphy" points_eligible="true">
+      <team id="1bd0412c-11f9-416f-952d-e0ebb96015ad" name="NEMCO Motorsports">
+      </team>
+    </driver>
+    <driver id="3c1c8459-ea46-4df5-b494-7b8072b70664" first_name="T.J." last_name="Bell" full_name="T.J. Bell" birthday="1980-08-25" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Reno, Nevada, United States" hobbies="Wakeboarding, biking, soccer" twitter="@TJBell_racing" points_eligible="true">
+      <team id="7cc27046-ce42-4d9c-befc-01e9255a0a45" name="Niece Motorsports">
+      </team>
+      <car id="becdc4cf-41e3-4c51-9538-b1758ed31241" number="12" sponsors="Randco Industries" status="ACT" crew_chief="Tyler Young">
+        <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
+        <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
+        <owner id="82a2b6f5-1651-46a5-9dee-9efa477d5b0c" name="Randy Young"/>
+        <team id="fae0578a-6a53-4db6-ba8a-50cc08e454e3" name="Young's Motorsports">
+        </team>
+      </car>
+    </driver>
+    <driver id="cbe6de59-b78b-4c70-bb38-8c01cd67253a" first_name="Darwin" last_name="Peters" full_name="Darwin Peters Jr" birthday="1964-11-07" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Olean, New York, United States" points_eligible="false">
+      <team id="7b16bedd-8eeb-40f6-bba6-196ea128d813" name="Lou Goss Racing">
+      </team>
+    </driver>
+    <driver id="e32ad7cf-adbb-4800-89d1-9edf5c18ce50" first_name="Carson" last_name="Ware" full_name="Carson Ware" birthday="2000-02-28" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Jamestown, North Carolina, United States" points_eligible="true">
+      <team id="13de6f24-4cb7-4c52-aa01-0c6e3041cb6b" name="Reaume Brothers Racing">
+      </team>
+    </driver>
+    <driver id="df3c271a-b038-46c2-905e-6bad2684512e" first_name="Korbin" last_name="Forrister" full_name="Korbin Forrister" birthday="1992-11-16" rookie_year="2015" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Cedartown, Georgia, United States" twitter="@korbinforrister" points_eligible="true">
+      <team id="856da69d-39a9-4c53-bf89-220288c6021b" name="All Out Motorsports">
+      </team>
+    </driver>
+    <driver id="a27abfd8-d687-4d6c-832d-10fae051ccb5" first_name="Todd" last_name="Gilliland" full_name="Todd Gilliland" birthday="2000-05-15" rookie_year="2018" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Sherrills Ford, North Carolina, United States" points_eligible="true">
+      <team id="3f7e3372-c0fd-4414-bd68-e840a888e06a" name="Kyle Busch Motorsports">
+        <owner id="23010998-4f90-40d2-b337-ef8c48ec3334" name="Kyle Busch"/>
+      </team>
+      <car id="e846cbdf-e7ae-4cf4-a3d4-f97979699be5" number="38" sponsors="Black's Tires/Speedco/Mannington Commercial/Frontline Enterprise Inc./The Pete Store/Crosley Brands/pneumatech" status="ACT" crew_chief="Chris Lawson">
         <manufacturer id="12844047-ab59-43ca-ab6c-c10d54931715" name="Ford"/>
         <engine id="2ff1e55b-7433-4e77-9336-07a74cc3194e" name="Ford"/>
         <owner id="c81a723c-a430-4be5-969f-5fbf21c1d519" name="Bob Jenkins"/>
@@ -404,191 +593,232 @@
         </team>
       </car>
     </driver>
-    <driver id="894b273e-ce7d-446c-9ab0-d9a474ce9d7f" first_name="Joey" last_name="Logano" full_name="Joey Logano" height="72" weight="140" birthday="1990-05-24" rookie_year="2009" gender="M" status="ACT" country="UNITED STATES" residence="Huntersville, North Carolina, United States" birth_place="Middletown, Connecticut, United States" hobbies="Racing, car restoration, “working on my house,” iRacing, four-wheeling" twitter="@joeylogano" points_eligible="true">
-      <team id="b30dee06-c437-4e76-8b9c-8b850d52ce21" name="Joe Gibbs Racing">
+    <driver id="8d425276-debf-4b42-bc88-805ebf9969e9" first_name="Cory" last_name="Roper" full_name="Cory Roper" birthday="1977-07-31" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Baytown, Texas, United States" points_eligible="true">
+      <team id="90369cc2-41c9-4420-90d6-3627d538bd26" name="Roper Racing">
       </team>
-      <car id="23a4be38-3039-4757-94f5-b4e478e4d7f8" number="22" sponsors="Shell-Pennzoil/AAA/AutoTrader.com/MoneyLion" status="ACT" crew_chief="Todd Gordon">
+      <car id="744d8491-42be-4e80-acb0-7a58c0847e28" number="04" sponsors="CarQuest/TechNet Professional Automotive Services/Alliance Aviation" status="ACT">
         <manufacturer id="12844047-ab59-43ca-ab6c-c10d54931715" name="Ford"/>
         <engine id="2ff1e55b-7433-4e77-9336-07a74cc3194e" name="Ford"/>
-        <owner id="03246399-5e63-4c21-9c5f-24074e3bf515" name="Walter Czarnecki"/>
-        <team id="e337709c-9fb6-4275-ad89-d9c100e71a1d" name="Team Penske">
-          <owner id="57198af5-d912-4efc-9135-95fc6c0a3fc5" name="Roger Penske"/>
+        <owner id="6674ccca-c631-4e49-a77e-038d813bebc7" name="Craig Roper"/>
+        <team id="90369cc2-41c9-4420-90d6-3627d538bd26" name="Roper Racing">
         </team>
       </car>
     </driver>
-    <driver id="6449e06e-f06d-444a-a044-f5b468d29ab4" first_name="Kevin" last_name="Conway" full_name="Kevin Conway" birthday="1978-04-15" rookie_year="2010" gender="M" status="ACT" country="United States" points_eligible="false">
+    <driver id="f69245ee-72e4-4680-a4be-85e1c324ef43" first_name="Lou" last_name="Goss" full_name="Lou Goss" birthday="1987-05-22" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place=", , United States" points_eligible="true">
+      <team id="7b16bedd-8eeb-40f6-bba6-196ea128d813" name="Lou Goss Racing">
+      </team>
+    </driver>
+    <driver id="e228e4f4-deac-4eeb-acf6-cacdcb4bc81a" first_name="Kyle" last_name="Benjamin" full_name="Kyle Benjamin" birthday="1997-11-03" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Easley, South Carolina, United States" twitter="@kylebenjamin71" points_eligible="true">
+      <team id="7cc27046-ce42-4d9c-befc-01e9255a0a45" name="Niece Motorsports">
+      </team>
+    </driver>
+    <driver id="90ed8ea9-e8bc-4471-9bec-07bb302ffcad" first_name="Jake" last_name="Griffin" full_name="Jake Griffin" birthday="1998-11-16" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Quincy, Illinois, United States" twitter="@JakeGriffin08" points_eligible="true">
+      <team id="49f1642f-2fcd-47f3-ac78-0096e989ac91" name="Michael Affarano Motorsports">
+      </team>
+    </driver>
+    <driver id="81494312-bd6e-40db-a1ad-ae0eda566067" first_name="David" last_name="Gilliland" full_name="David Gilliland" height="69" birthday="1976-04-01" rookie_year="2006" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Riverside, California, United States" hobbies="Boating, Fishing" children="Todd, Taylor" twitter="@DavidGilliland" points_eligible="true">
+      <team id="3b5249ed-a226-4107-b5e0-eaec52d818ef" name="DGR-CROSLEY">
+      </team>
+    </driver>
+    <driver id="5ae1a122-28a3-461b-82e0-955c0d1132fa" first_name="BJ" last_name="McLeod" full_name="BJ McLeod" birthday="1983-11-17" rookie_year="2016" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Wauchula, Florida, United States" twitter="@bjmcleod78" points_eligible="true">
+      <team id="7e667464-64f8-45f4-885d-fa43fd43dc41" name="Wallace Racing">
+      </team>
+    </driver>
+    <driver id="62369fd2-886e-41b1-bd56-8452b55216f1" first_name="Dylan" last_name="Lupton" full_name="Dylan Lupton" birthday="1993-12-07" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Wilton, California, United States" twitter="@LuptonDylan" points_eligible="true">
+      <team id="3b5249ed-a226-4107-b5e0-eaec52d818ef" name="DGR-CROSLEY">
+      </team>
+      <car id="650e6ad9-f46b-42de-ad10-3431e7f06d28" number="17" sponsors="Ford Performance/Select Blinds/Fatal" status="ACT" crew_chief="Marcus Richmond">
+        <manufacturer id="12844047-ab59-43ca-ab6c-c10d54931715" name="Ford"/>
+        <engine id="2ff1e55b-7433-4e77-9336-07a74cc3194e" name="Ford"/>
+        <owner id="06ba4d04-43af-47a7-b4f7-21254568a139" name="Bo Le Mastus"/>
+        <team id="3b5249ed-a226-4107-b5e0-eaec52d818ef" name="DGR-CROSLEY">
+        </team>
+      </car>
+    </driver>
+    <driver id="46f77b78-961b-48cc-8681-b971511d2d5e" first_name="D.J." last_name="Kennington" full_name="D.J. Kennington" height="70" birthday="1977-07-15" gender="M" status="ACT" country="CANADA" residence=", , " birth_place="St. Thomas, , Canada" points_eligible="true">
+      <team id="fae0578a-6a53-4db6-ba8a-50cc08e454e3" name="Young's Motorsports">
+      </team>
+    </driver>
+    <driver id="098c63ee-9f8a-4760-a9e2-d33ab036ca80" first_name="Justin" last_name="Johnson" full_name="Justin Johnson" birthday="1985-08-09" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Las Vegas, Nevada, United States" points_eligible="true">
+      <team id="a1968fe6-03fb-418d-8da9-4e2db5d033bf" name="Kart Idaho">
+      </team>
+    </driver>
+    <driver id="141401ee-e280-4fc5-9001-a08b5cda3eff" first_name="Roger" last_name="Reuse" full_name="Roger Reuse" birthday="1966-08-09" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Birmingham, Alabama, United States" points_eligible="true">
+      <team id="90369cc2-41c9-4420-90d6-3627d538bd26" name="Roper Racing">
+      </team>
+      <car id="0cebaf77-c171-4dde-b7d5-e695a169db23" number="49" sponsors="Ciccarelli Moving &amp; Installations/Springrates Automotive Suspension Parts" status="ACT" crew_chief="Timmy Silva">
+        <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
+        <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
+        <owner id="fa1366cd-d5c3-4a01-b374-0782f44f2bad" name="Ray Ciccarelli"/>
+        <team id="80e86edc-2599-410f-9db9-042e3d7556eb" name="CMI Motorsports">
+          <owner id="b5cfa7f5-be2b-4031-b58d-847f96e2b736" name="Ray Ciccarelli"/>
+        </team>
+      </car>
+    </driver>
+    <driver id="b1f0ccce-7de3-4eff-8e45-9d7e0c6ea98e" first_name="Tyler" last_name="Hill" full_name="Tyler Hill" birthday="1994-06-02" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Port Tobacco, Maryland, United States" points_eligible="true">
+      <team id="64954cbd-24b2-4a40-a72d-72deed5a5b54" name="Hill Motorsports">
+      </team>
+      <car id="9e008f18-d260-4a3e-a983-8828eae468b1" number="56" sponsors="MASHONIT/RoofClaim.com/HairClub" status="ACT" crew_chief="Greg Ely">
+        <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
+        <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
+        <owner id="b39ad9aa-4ee1-454c-b01f-c7f6ad1c4e78" name="Timmy Hill"/>
+        <team id="64954cbd-24b2-4a40-a72d-72deed5a5b54" name="Hill Motorsports">
+        </team>
+      </car>
+    </driver>
+    <driver id="e382e02a-d226-46f3-8e58-23baf4df39eb" first_name="Josh" last_name="Reaume" full_name="Josh Reaume" birthday="1990-10-11" rookie_year="2015" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Redlands, California, United States" twitter="@joshreaume" points_eligible="true">
+      <team id="13de6f24-4cb7-4c52-aa01-0c6e3041cb6b" name="Reaume Brothers Racing">
+      </team>
+      <car id="80e7c1b9-635e-45b8-86e5-5257f64043fe" number="33" sponsors="Your GMC Truck Store/RBR Graphics/Uland &amp; Son Heavy Equipment/Crunch Construction/Crowe Equipment/The Mullet That Changed My Life" status="ACT" crew_chief="Matthew Wolper">
+        <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
+        <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
+        <owner id="40866ed9-4dca-4abe-a0d1-80b534fc872d" name="Josh Reaume"/>
+        <team id="13de6f24-4cb7-4c52-aa01-0c6e3041cb6b" name="Reaume Brothers Racing">
+        </team>
+      </car>
+    </driver>
+    <driver id="d06cb278-2b8c-42b4-96cb-a3abb8f81995" first_name="Mark" last_name="Smith" full_name="Mark Smith" birthday="1971-07-14" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Sunbary, Pennsylvania, United States" points_eligible="true">
+      <team id="7cc27046-ce42-4d9c-befc-01e9255a0a45" name="Niece Motorsports">
+      </team>
+    </driver>
+    <driver id="ddf5bad4-6560-47eb-b1c0-573e94067c01" first_name="Danny" last_name="Bohn" full_name="Danny Bohn" birthday="1988-06-29" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Freehold, New Jersey, United States" points_eligible="true">
+      <team id="dfd54704-309d-4d56-a2f4-6b5b38b8d8b8" name="On Point Motorsports">
+      </team>
+      <car id="f2b18bad-50cb-45d0-8c29-a2183a79a1fb" number="30" sponsors="Spartan Mosquito/RememberEveryoneDeployed.org/North American Motor Car/Ticks Suck" status="ACT" crew_chief="Steve Lane">
+        <manufacturer id="73364deb-a012-4625-b759-db6a236797e3" name="Toyota"/>
+        <engine id="91db24df-134d-4c07-a13b-76266b3dd534" name="Toyota"/>
+        <owner id="363ad556-294e-46c2-a506-08f0e8db9588" name="Steve Lane"/>
+        <team id="dfd54704-309d-4d56-a2f4-6b5b38b8d8b8" name="On Point Motorsports">
+        </team>
+      </car>
+    </driver>
+    <driver id="a9988edd-7707-4a75-9ee5-d3a8cae0c8aa" first_name="Timmy" last_name="Hill" full_name="Timmy Hill" birthday="1993-02-25" rookie_year="2011" gender="M" status="ACT" country="UNITED STATES" residence="Port Tobacco, Maryland, United States" birth_place="Port Tobacco, Maryland, United States" hobbies="iRacing (ranked in top 50 in world), going to the movies, working out, bowling, going to the beach" twitter="@TimmyHillRacer" points_eligible="false">
+      <team id="ecc429f4-d5ba-4232-aa11-f375e4b78f85" name="Copp Motorsports">
+      </team>
+    </driver>
+    <driver id="094b41f2-f109-4355-95cb-14ac2165c38e" first_name="Mike" last_name="Marlar" full_name="Mike Marlar" birthday="1978-01-30" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Winfield, Tennessee, United States" points_eligible="true">
+      <team id="13de6f24-4cb7-4c52-aa01-0c6e3041cb6b" name="Reaume Brothers Racing">
+      </team>
+    </driver>
+    <driver id="4e2b46b2-c7ed-492c-8906-f78445d76d80" first_name="Robby" last_name="Lyons" full_name="Robby Lyons" birthday="1989-01-22" gender="M" status="ACT" country="UNITED STATES" residence="Seminole, Florida, United States" birth_place="Seminole, Florida, United States" points_eligible="true">
+      <team id="064c96af-6e05-426d-b020-c5f1747c70c3" name="Chad Finley Racing Inc.">
+      </team>
+      <car id="22053044-76d9-4645-a6e4-2d38358176fe" number="97" sponsors="Teletrac Navman/Sun West Construction" status="ACT" crew_chief="Bruce Cook">
+        <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
+        <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
+        <owner id="f2c666ff-1eaa-4094-88e2-88120cb8898c" name="Logan Puckett"/>
+        <team id="d3742a82-0344-4499-aa7d-b42c0b8b2db8" name="Diversified Motorsports Enterprises">
+        </team>
+      </car>
+    </driver>
+    <driver id="748bc44a-d8c9-4ea5-b23f-c628671be367" first_name="Juan Ma" last_name="Gonzalez" full_name="Juan Ma Gonzalez" birthday="1999-04-21" gender="M" status="ACT" country="MEXICO" residence=", , " birth_place="Mexico City, , Mexico" points_eligible="true">
+      <team id="3a0900b6-6ab8-4d95-87f0-f6c5a5f1e2fa" name="Jennifer Jo Cobb Racing">
+        <owner id="e2a2d65c-d5dd-4109-97de-76607b26fbb2" name="Jennifer Jo Cobb"/>
+      </team>
+    </driver>
+    <driver id="623f4293-77e7-43b3-8d91-0a5ab9365c3d" first_name="Ben" last_name="Rhodes" full_name="Ben Rhodes" birthday="1997-02-21" rookie_year="2016" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Louisville, Kentucky, United States" twitter="@BenRhodes" points_eligible="true">
+      <team id="ba8c3992-a15c-4456-8346-ee5661202646" name="ThorSport Racing">
+        <owner id="16797fb3-fc26-4a74-8c8c-30d034619f31" name="Duke Thorson"/>
+      </team>
+      <car id="4b07f779-8ca1-49af-bc3f-00bf157d107a" number="99" sponsors="Tenda/Food Lion/Carolina Nut/USA Pickleball" status="ACT" crew_chief="Matt Noyce">
+        <manufacturer id="12844047-ab59-43ca-ab6c-c10d54931715" name="Ford"/>
+        <engine id="2ff1e55b-7433-4e77-9336-07a74cc3194e" name="Ford"/>
+        <owner id="35199c38-9911-4756-a09d-4a358473e4c3" name="Duke Thorson"/>
+        <team id="ba8c3992-a15c-4456-8346-ee5661202646" name="ThorSport Racing">
+          <owner id="16797fb3-fc26-4a74-8c8c-30d034619f31" name="Duke Thorson"/>
+        </team>
+      </car>
+    </driver>
+    <driver id="7ecee9a3-589f-4ddc-82ca-281def6b224e" first_name="Bryan" last_name="Dauzat" full_name="Bryan Dauzat" birthday="1959-11-30" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Alexandria, Louisiana, United States" points_eligible="true">
+      <team id="d6845e79-153c-4121-adfb-0863aad95a8b" name="FDNY Racing">
+      </team>
+      <car id="07a5f642-3b94-46e4-b85f-9a27c01e9d91" number="28" sponsors="FDNY/Peter Navarra Landscape" status="ACT" crew_chief="Jim Rosenblum">
+        <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
+        <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
+        <owner id="e0729b81-7fc5-45fb-84e3-a4d0f623c1d1" name="Jim Rosenblum"/>
+        <team id="d6845e79-153c-4121-adfb-0863aad95a8b" name="FDNY Racing">
+        </team>
+      </car>
+    </driver>
+    <driver id="4cccb84a-4841-45e1-9ccf-e1aff0222ab4" first_name="Cj" last_name="McLaughlin" full_name="Cj McLaughlin" birthday="1979-01-01" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Framingham, Massachusetts, United States" points_eligible="true">
+      <team id="13de6f24-4cb7-4c52-aa01-0c6e3041cb6b" name="Reaume Brothers Racing">
+      </team>
+    </driver>
+    <driver id="812b9570-729a-4ef2-8ccb-6803aa7293b4" first_name="Spencer" last_name="Davis" full_name="Spencer Davis" birthday="1998-11-29" rookie_year="2020" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Dawsonville, Georgia, United States" points_eligible="true">
+      <team id="4a9fe96e-23d7-415c-8832-47def2f62d30" name="Rette Jones Racing">
+      </team>
+      <car id="81723434-1e3f-4813-8820-9ed7dc531476" number="11" sponsors="Hearn Industrial/All Pro Corp/Tower Sealants/Southern Premier Construction/Polar Bear Coolers/Jones Demo and Abatement/Max Industrial" status="ACT" crew_chief="Mark Rette">
+        <manufacturer id="73364deb-a012-4625-b759-db6a236797e3" name="Toyota"/>
+        <engine id="91db24df-134d-4c07-a13b-76266b3dd534" name="Toyota"/>
+        <owner id="d98d9fa5-c063-4028-becc-6653b1e1840f" name="Spencer Davis"/>
+        <team id="0a371bd7-e93f-4677-b2fe-292b115281b3" name="Spencer Davis Motorsports">
+        </team>
+      </car>
+    </driver>
+    <driver id="a02a44f5-eb45-4dcc-8c71-4a35bfaf31bf" first_name="Ryan" last_name="Reed" full_name="Ryan Reed" birthday="1993-08-12" rookie_year="2014" gender="M" status="ACT" country="UNITED STATES" residence="Bakersfield, California, United States" birth_place="Bakersfield, California, United States" twitter="@driverRyanReed" points_eligible="true">
+      <team id="3b5249ed-a226-4107-b5e0-eaec52d818ef" name="DGR-CROSLEY">
+      </team>
+    </driver>
+    <driver id="693efc6f-4f6d-4371-a357-b0757e674bfb" first_name="Ted" last_name="Minor" full_name="Ted Minor" birthday="1974-02-01" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Weatherford, Texas, United States" points_eligible="true">
+      <team id="47d8365e-0908-4d02-b3a7-7fa7e32accb1" name="Ted Minor Motorsports">
+      </team>
+    </driver>
+    <driver id="35a6fe75-7b32-4b7b-af0c-e68cb0891f7a" first_name="Garrett" last_name="Smithley" full_name="Garrett Smithley" birthday="1992-04-27" rookie_year="2016" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Ligonier, Pennsylvania, United States" twitter="@GarrettSmithley" points_eligible="false">
+      <team id="064c96af-6e05-426d-b020-c5f1747c70c3" name="Chad Finley Racing Inc.">
+      </team>
+    </driver>
+    <driver id="aa054192-c12f-44e5-bea0-d0272c603df0" first_name="Jeffrey" last_name="Abbey" full_name="Jeffrey Abbey" birthday="1998-09-01" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Comanche, Texas, United States" points_eligible="true">
+      <team id="7cc27046-ce42-4d9c-befc-01e9255a0a45" name="Niece Motorsports">
+      </team>
+    </driver>
+    <driver id="1f6b92dc-c5ab-43a5-ab1e-255283e8c24c" first_name="Reid" last_name="Wilson" full_name="Reid Wilson" birthday="1996-05-30" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Charlotte, North Carolina, United States" points_eligible="true">
+      <team id="7cc27046-ce42-4d9c-befc-01e9255a0a45" name="Niece Motorsports">
+      </team>
+    </driver>
+    <driver id="e4b9e60e-d4c2-4b42-93c3-0fa1f2695160" first_name="Bayley" last_name="Currey" full_name="Bayley Currey" birthday="1996-10-29" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Driftwood, Texas, United States" points_eligible="true">
+      <team id="a2372cdd-bb65-4587-b5f4-cebed2a62232" name="Vizion Motorsports">
+        <owner id="001f0bfd-90c7-4624-b03b-17ed85db5fc7" name="Jen Brown"/>
+      </team>
+    </driver>
+    <driver id="6334f9f0-8b97-4020-8204-2ba30e7dd4ba" first_name="John H." last_name="Nemechek" full_name="John H. Nemechek" birthday="1997-06-11" rookie_year="2015" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Mooresville, North Carolina, United States" twitter="@JHNemechek" points_eligible="false">
       <team id="1bd0412c-11f9-416f-952d-e0ebb96015ad" name="NEMCO Motorsports">
       </team>
     </driver>
-    <driver id="217cbc2d-9720-455c-9028-de420fbf9b6e" first_name="Steve" last_name="Wallace" full_name="Steve Wallace" birthday="1987-08-18" gender="M" status="ACT" country="United States" points_eligible="false">
-      <team id="d8b32986-a8c9-4aa2-b1be-bd5d6b961055" name="Rusty Wallace Racing">
+    <driver id="1b8f4d7f-41e6-4ade-8669-a70cb7d00df9" first_name="Bryant" last_name="Barnhill" full_name="Bryant Barnhill" birthday="1998-08-11" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Conway, South Carolina, United States" points_eligible="true">
+      <team id="13de6f24-4cb7-4c52-aa01-0c6e3041cb6b" name="Reaume Brothers Racing">
       </team>
-    </driver>
-    <driver id="46a69a3b-76d1-4c01-9aa3-6eab99e11558" first_name="Sam" last_name="Hornish" full_name="Sam Hornish Jr" height="71" birthday="1979-07-02" rookie_year="2007" gender="M" status="ACT" country="UNITED STATES" residence="Napoleon, Ohio, United States" birth_place="Defiance, Ohio, United States" hobbies="Customizing his personal vehicles, motorcycling, bowling, R/C cars" children="Addison, Eliza" twitter="@SamHornish " points_eligible="false">
-      <team id="e337709c-9fb6-4275-ad89-d9c100e71a1d" name="Team Penske">
-        <owner id="57198af5-d912-4efc-9135-95fc6c0a3fc5" name="Roger Penske"/>
-      </team>
-    </driver>
-    <driver id="6351dbcd-3c27-466d-9e72-dec740ce48ff" first_name="Tim" last_name="Andrews" full_name="Tim Andrews" rookie_year="2012" gender="M" status="ACT" country="United States" points_eligible="false">
-    </driver>
-    <driver id="b2f2b44e-1b64-4cee-87f5-2855937f8ab2" first_name="Boris" last_name="Said" full_name="Boris Said" height="72" birthday="1962-09-18" gender="M" status="RET" country="UNITED STATES" residence=", , " birth_place="Carlsbad, California, United States" points_eligible="true">
-      <team id="d4fd0e91-6108-4ac4-873e-258588ec2508" name="FAS Lane Racing">
-      </team>
-    </driver>
-    <driver id="25884070-3ded-4fdc-9370-d09428ac95e4" first_name="David" last_name="Ragan" full_name="David Ragan" height="72" birthday="1985-12-24" rookie_year="2007" gender="M" status="ACT" country="UNITED STATES" residence="Huntersville, North Carolina, United States" birth_place="Unadilla, Georgia, United States" hobbies="Boxing, restoring old cars, hunting, fishing" twitter="@DavidRagan" points_eligible="true">
-      <team id="bd38dfec-bb97-4f29-b032-cc6f0c77dfe6" name="Front Row Motorsports">
-      </team>
-      <car id="122dc137-45ec-41a0-9cf4-c447c34330b4" number="38" sponsors="MDS Transport/Shriners Hospital for Children/Select Blinds/Citgard/FireAde/Mystik Lubricants/ExploriaResorts.com" status="ACT" crew_chief="Seth Barbour">
-        <manufacturer id="12844047-ab59-43ca-ab6c-c10d54931715" name="Ford"/>
-        <engine id="2ff1e55b-7433-4e77-9336-07a74cc3194e" name="Ford"/>
-        <owner id="69e98f6f-ffa3-4b40-832a-33b262151bba" name="Brad Jenkins"/>
-        <team id="bd38dfec-bb97-4f29-b032-cc6f0c77dfe6" name="Front Row Motorsports">
-        </team>
-      </car>
-    </driver>
-    <driver id="1c1b9faf-d8ba-4362-99ab-0cd9ea9e7876" first_name="Mike" last_name="Skinner" full_name="Mike Skinner" height="72" birthday="1957-06-28" rookie_year="1986" gender="M" status="ACT" country="United States" points_eligible="true">
-      <team id="5a5696b6-0155-4753-a62d-8122b875b11f" name="R3 Motorsports">
-      </team>
-    </driver>
-    <driver id="ecd3e658-3c7b-48c9-9d95-dccc8b665ae2" first_name="Brian" last_name="Scott" full_name="Brian Scott" birthday="1988-01-12" rookie_year="2008" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Boise, Idaho, United States" hobbies="Fishing, boating, snowmobiling, snow skiing, hunting, motorcycles, video games, extreme sports, golf" twitter="@bscottracing" points_eligible="false">
-    </driver>
-    <driver id="130dddf7-23e5-4200-8d45-b45ad5a87e2a" first_name="James" last_name="Hylton" full_name="James Hylton" height="69" birthday="1935-08-26" rookie_year="1964" gender="M" status="ACT" country="United States" points_eligible="false">
-      <team id="761a07d6-f340-4f67-aa5c-42b925fa2f8a" name="Carter/Simo Racing">
-      </team>
-    </driver>
-    <driver id="04687e5d-3ff9-479a-ae3e-6a4cee7b4d09" first_name="Matt" last_name="Kenseth" full_name="Matt Kenseth" height="69" birthday="1972-03-10" rookie_year="2000" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Cambridge, Wisconsin, United States" hobbies="Motorcycles, flying, reading" children="Ross, Kaylin, Grace" twitter="@mattkenseth" points_eligible="true">
-      <team id="69cd5f7e-cb9d-46c0-a2c3-c1dde01969ee" name="Roush Fenway Racing">
-      </team>
-    </driver>
-    <driver id="2e6f5ea3-ea6e-48d2-85ec-2e89c2fa02b4" first_name="Ryan" last_name="Newman" full_name="Ryan Newman" height="71" birthday="1977-12-08" rookie_year="2002" gender="M" status="ACT" country="UNITED STATES" residence="Statesville, North Carolina, United States" birth_place="South Bend, Indiana, United States" college="Purdue University" hobbies="Fishing, restoring classic cars" children="Brooklyn" twitter="@RyanJNewman" points_eligible="true">
-      <team id="876a07ff-ff53-4f23-9528-6d9795270244" name="Stewart Haas Racing">
-        <owner id="160c7b9e-b198-4b4d-9000-bcdc1a094cee" name="Tony Stewart"/>
-      </team>
-      <car id="698eee4f-6812-47b1-9940-62e2afc50143" number="6" sponsors="Wyndham Rewards/Oscar Mayer/Acorns/Performance Plus Motor Oil/Roush Performance/Mazola Corn Oil/Coca Cola" status="ACT" crew_chief="Scott Graves">
-        <manufacturer id="12844047-ab59-43ca-ab6c-c10d54931715" name="Ford"/>
-        <engine id="2ff1e55b-7433-4e77-9336-07a74cc3194e" name="Ford"/>
-        <owner id="b8e569e0-a3cf-48ee-bd7b-52a2ba1ff1d9" name="John Henry"/>
-        <team id="69cd5f7e-cb9d-46c0-a2c3-c1dde01969ee" name="Roush Fenway Racing">
-        </team>
-      </car>
-    </driver>
-    <driver id="deafa98e-54dc-4e8d-b57b-b35d00abe1a5" first_name="Scott" last_name="Wimmer" full_name="Scott Wimmer" height="72" birthday="1976-01-26" rookie_year="2004" gender="M" status="ACT" country="United States" points_eligible="false">
-      <team id="5cd08eec-819f-4cd6-b38c-4584d9cb3f48" name="Robby Gordon Motorsports">
-      </team>
-    </driver>
-    <driver id="753df41b-b59d-4dc1-9b9b-378c42a670da" first_name="Patrick" last_name="Long" full_name="Patrick Long" gender="M" status="ACT" country="United States" points_eligible="true">
-      <team id="78277f59-e222-4509-ae3a-00e901f38718" name="Inception Motorsports">
-      </team>
-    </driver>
-    <driver id="8fa32d3b-a5ba-4eea-a4eb-9063ed7e7114" first_name="Morgan" last_name="Shepherd" full_name="Morgan Shepherd" height="69" birthday="1941-10-12" rookie_year="1970" gender="M" status="ACT" country="UNITED STATES" residence="Conover, North Carolina, United States" birth_place="Ferguson, North Carolina, United States" hobbies="Roller-skating, charitable work" twitter="@MShepherd89" points_eligible="false">
-    </driver>
-    <driver id="e128a081-a2e8-4809-8038-8c936049bf7c" first_name="Aric" last_name="Almirola" full_name="Aric Almirola" height="72" birthday="1984-03-14" rookie_year="2011" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Tampa, Florida, United States" college="University of Central Florida" hobbies="Snow skiing, water sports, hunting, family" children="Alex" twitter="@aric_almirola" points_eligible="true">
-      <team id="ee6a924b-58f4-40ea-8514-610936e32e78" name="Richard Petty Motorsports">
-        <owner id="23972c17-6476-4824-aeb2-43896e2082d9" name="Richard Petty"/>
-      </team>
-      <car id="2e3b8a4c-5c1c-401d-98b2-7c92bcab23e5" number="10" sponsors="Smithfield/Mobil 1/Valley Technical Academy/Farmer John/Shazam!" status="ACT" crew_chief="John Klausmeier">
-        <manufacturer id="12844047-ab59-43ca-ab6c-c10d54931715" name="Ford"/>
-        <engine id="2ff1e55b-7433-4e77-9336-07a74cc3194e" name="Ford"/>
-        <owner id="f605ad11-b0a3-423b-a1f0-220cfa224968" name="Tony Stewart"/>
-        <team id="876a07ff-ff53-4f23-9528-6d9795270244" name="Stewart Haas Racing">
-          <owner id="160c7b9e-b198-4b4d-9000-bcdc1a094cee" name="Tony Stewart"/>
-        </team>
-      </car>
-    </driver>
-    <driver id="2665684b-e8ec-490f-b0ca-5c76a546b82b" first_name="Carl" last_name="Long" full_name="Carl Long" height="70" birthday="1967-09-20" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Roxboro, North Carolina, United States" points_eligible="false">
-    </driver>
-    <driver id="8e76a45f-596e-4b56-9eb6-0623e45bf89c" first_name="Kurt" last_name="Busch" full_name="Kurt Busch" height="71" birthday="1978-08-04" rookie_year="2000" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Las Vegas, Nevada, United States" hobbies="Jet skiing, water skiing, snow skiing, hunting, four-wheeling, golf, skeet shooting" twitter="@KurtBusch" points_eligible="true">
-      <team id="7e4712e1-9276-4f32-b648-79fc4fa42e7f" name="Furniture Row Racing">
-        <owner id="bd9fc169-05c7-4661-a37b-5308cbe50f2c" name="Barney Visser"/>
-      </team>
-      <car id="3cc7ae07-4ec7-4d14-8cdf-59557055db30" number="1" sponsors="Monster Energy/Global Poker/GearWrench/ComSurv/Star Nursery/AdventHealth" status="ACT" crew_chief="Matt McCall">
+      <car id="2886f1a6-a0be-4ce6-a8e6-b328ad3aff17" number="34" sponsors="Motorsports Safety Group" status="ACT" crew_chief="John Reaume">
         <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
         <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
-        <owner id="f37e2acb-0f47-498f-8a3c-d2aef410cdc7" name="Felix Sabates"/>
-        <team id="e9897fd1-8187-4930-814d-5d05cd43d198" name="Chip Ganassi Racing">
+        <owner id="40866ed9-4dca-4abe-a0d1-80b534fc872d" name="Josh Reaume"/>
+        <team id="13de6f24-4cb7-4c52-aa01-0c6e3041cb6b" name="Reaume Brothers Racing">
         </team>
       </car>
     </driver>
-    <driver id="b1bf7a78-b58c-4a91-b769-b8fd5a687f42" first_name="Brian" last_name="Vickers" full_name="Brian Vickers" height="71" weight="160" birthday="1983-10-24" rookie_year="2004" gender="M" status="RET" country="UNITED STATES" residence="Ft. Lauderdale, Florida, United States" birth_place="Thomasville, North Carolina, United States" hobbies="Biking, skiing, reading, golf, all things outdoors" twitter="@BrianLVickers" points_eligible="false">
-      <team id="35c6fd55-54bb-4eb4-85a2-00bfbaaea871" name="Michael Waltrip Racing">
-        <owner id="db4bc17c-739e-42e4-b10a-bd0aa234a127" name="Michael Waltrip"/>
+    <driver id="5b580f91-0223-4c57-afb2-6df24d69d555" first_name="Chris" last_name="Fontaine" full_name="Chris Fontaine" birthday="1981-12-01" gender="M" status="ACT" residence=", , " birth_place="Lakeland, Florida, " points_eligible="true">
+      <team id="5701fae6-daa0-421e-9fb0-1ef02c0f2c52" name="Glenden Enterprises">
       </team>
     </driver>
-    <driver id="4d5ede64-88da-4381-a164-13880230f74a" first_name="Johnny" last_name="Sauter" full_name="Johnny Sauter" height="71" birthday="1978-05-01" rookie_year="2009" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Necedah, Wisconsin, United States" hobbies="Late-model racing, collecting classic cars, remote-control cars" children="Penn, Joseph, Paige" twitter="@JohnnySauter" points_eligible="false">
-    </driver>
-    <driver id="cb9d6f49-0044-4305-be9a-22d428e52c95" first_name="Denny" last_name="Hamlin" full_name="Denny Hamlin" height="72" birthday="1980-11-18" rookie_year="2006" gender="M" status="ACT" country="UNITED STATES" residence="Charlotte, North Carolina, United States" birth_place="Chesterfield, Virginia, United States" hobbies="Basketball, boating, skiing, traveling, online racing, playing cards" twitter="@DennyHamlin" points_eligible="true">
-      <team id="b30dee06-c437-4e76-8b9c-8b850d52ce21" name="Joe Gibbs Racing">
-      </team>
-      <car id="a4fca4d9-9ffa-4b72-8673-f851f6fd9677" number="11" sponsors="FedEx" status="ACT" crew_chief="Chris Gabehart">
-        <manufacturer id="73364deb-a012-4625-b759-db6a236797e3" name="Toyota"/>
-        <engine id="91db24df-134d-4c07-a13b-76266b3dd534" name="Toyota"/>
-        <owner id="d84c771d-594c-4cfb-af6f-4bdd39abae75" name="Coy Gibbs"/>
-        <team id="b30dee06-c437-4e76-8b9c-8b850d52ce21" name="Joe Gibbs Racing">
-        </team>
-      </car>
-    </driver>
-    <driver id="c22ebebe-4f10-4581-99da-5ff0ed6949fe" first_name="Mike" last_name="Olsen" full_name="Mike Olsen" birthday="1968-02-08" gender="M" status="ACT" country="United States" points_eligible="true">
-      <team id="d4fd0e91-6108-4ac4-873e-258588ec2508" name="FAS Lane Racing">
+    <driver id="06ad66e1-76fa-488d-b25d-836bca3d0cee" first_name="Mason" last_name="Massey" full_name="Mason Massey" birthday="1997-01-24" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Douglasville, Georgia, United States" points_eligible="true">
+      <team id="13de6f24-4cb7-4c52-aa01-0c6e3041cb6b" name="Reaume Brothers Racing">
       </team>
     </driver>
-    <driver id="b6c23593-d863-43ad-a1df-cc2d020cd579" first_name="Jeff" last_name="Gordon" full_name="Jeff Gordon" height="67" weight="150" birthday="1971-08-04" rookie_year="1992" gender="M" status="RET" country="UNITED STATES" residence="Charlotte, North Carolina, United States" birth_place="Vallejo, California, United States" hobbies="Snowboarding, Video Games, Spending Time With Family, Scuba Diving" children="Ella, Leo" twitter="@JeffGordonWeb" points_eligible="true">
-      <team id="8427da4c-9c88-4849-9242-0c184d5ed67c" name="Hendrick Motorsports">
-        <owner id="df3acab4-1712-44bb-b913-897b4e20fd50" name="Rick Hendrick"/>
+    <driver id="67d8b82b-8797-47f2-b48e-965245bb6505" first_name="Scott" last_name="Stenzel" full_name="Scott Stenzel" birthday="1980-07-28" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Alexandria, Minnesota, United States" points_eligible="true">
+      <team id="ecc429f4-d5ba-4232-aa11-f375e4b78f85" name="Copp Motorsports">
       </team>
     </driver>
-    <driver id="262c7b0f-fab8-4d5e-854c-7d54d039b994" first_name="Danica" last_name="Patrick" full_name="Danica Patrick" height="62" birthday="1982-03-25" rookie_year="2013" gender="F" status="RET" country="UNITED STATES" residence="Phoenix, Arizona, United States" birth_place="Roscoe, Illinois, United States" hobbies="Shopping, physical fitness, yoga, sewing, listening to music and cooking" twitter="@DanicaPatrick" points_eligible="true">
-      <team id="876a07ff-ff53-4f23-9528-6d9795270244" name="Stewart Haas Racing">
-        <owner id="160c7b9e-b198-4b4d-9000-bcdc1a094cee" name="Tony Stewart"/>
+    <driver id="4f63e2cc-e20e-43a4-ad00-1f54b6f7461d" first_name="Austin" last_name="Theriault" full_name="Austin Theriault" birthday="1994-01-23" rookie_year="2015" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Fort Kent, Maine, United States" twitter="@AustinTheriault" points_eligible="true">
+      <team id="d85e8423-08dc-46ab-88f1-ae460fd71a0a" name="RBR Enterprises">
       </team>
     </driver>
-    <driver id="11dbd1d7-beef-463a-aef4-02aa4f92c081" first_name="Scott" last_name="Speed" full_name="Scott Speed" height="71" birthday="1983-01-24" rookie_year="2011" gender="M" status="ACT" country="United States" points_eligible="true">
-    </driver>
-    <driver id="3c1c41c0-efc1-4b3b-b9b4-918ae1f01951" first_name="Elliott" last_name="Sadler" full_name="Elliott Sadler" height="74" weight="195" birthday="1975-04-30" rookie_year="1998" gender="M" status="ACT" country="UNITED STATES" residence="Emporia, Virginia, United States" birth_place="Emporia, Virginia, United States" hobbies="Golf, deer hunting, basketball, water sports, video games, softball" children="Wyatt, Austin" twitter="@Elliott_Sadler" points_eligible="false">
-      <team id="ffd3ba10-57f2-4bb8-9aaf-7c64b1ba793a" name="Richard Childress Racing">
-        <owner id="84e3b257-75b1-40ef-8774-cfb53fab90e9" name="Richard Childress"/>
+    <driver id="2987a290-93b9-4f4e-9b12-c68b4ed126a4" first_name="Riley" last_name="Herbst" full_name="Riley Herbst" birthday="1999-02-24" rookie_year="2020" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Las Vegas, Nevada, United States" points_eligible="false">
+      <team id="3f7e3372-c0fd-4414-bd68-e840a888e06a" name="Kyle Busch Motorsports">
+        <owner id="23010998-4f90-40d2-b337-ef8c48ec3334" name="Kyle Busch"/>
       </team>
     </driver>
-    <driver id="32251b56-7387-4ade-8482-0917553218f4" first_name="JJ" last_name="Yeley" full_name="JJ Yeley" height="68" birthday="1976-10-05" rookie_year="2006" gender="M" status="ACT" country="UNITED STATES" residence="Charlotte, North Carolina, United States" birth_place="Phoenix, Arizona, United States" hobbies="Golf" children="Faith" twitter="@jjyeley1" points_eligible="true">
-      <team id="ac2c3a1e-5761-4ae8-9b40-a64614ca3b74" name="Robinson-Blakeney Racing">
-      </team>
-    </driver>
-    <driver id="5b949112-c4bd-4799-bf5f-05ba8c99e55f" first_name="Michael" last_name="Waltrip" full_name="Michael Waltrip" height="77" birthday="1963-04-30" rookie_year="1985" gender="M" status="RET" country="UNITED STATES" residence=", , " birth_place="Owensboro, Kentucky, United States" twitter="@mw55" points_eligible="true">
-      <team id="35c6fd55-54bb-4eb4-85a2-00bfbaaea871" name="Michael Waltrip Racing">
-        <owner id="db4bc17c-739e-42e4-b10a-bd0aa234a127" name="Michael Waltrip"/>
-      </team>
-    </driver>
-    <driver id="18d82f63-a0b8-4354-8083-b3e47f050ff1" first_name="Kasey" last_name="Kahne" full_name="Kasey Kahne" height="68" birthday="1980-04-10" rookie_year="2004" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Enumclaw, Washington, United States" hobbies="Sprint cars, basketball, working out, snowmobiling, wakeboarding" twitter="@kaseykahne" points_eligible="true">
-      <team id="8427da4c-9c88-4849-9242-0c184d5ed67c" name="Hendrick Motorsports">
-        <owner id="df3acab4-1712-44bb-b913-897b4e20fd50" name="Rick Hendrick"/>
-      </team>
-    </driver>
-    <driver id="a756eefd-801d-4214-ab1b-0b595c21c37d" first_name="Kyle" last_name="Larson" full_name="Kyle Larson" birthday="1992-07-31" rookie_year="2013" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Elk Grove, California, United States" twitter="@KyleLarsonRacin" points_eligible="false">
-      <car id="1dbd3173-2412-48e7-bf44-cca9a72fc127" number="42" sponsors="CreditOne Bank/First Data/McDonald's/Clover/AdventHealth" status="ACT" crew_chief="Chad Johnston">
-        <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
-        <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
-        <owner id="beaaedde-491d-4a5e-a449-36f7d6383588" name="Chip Ganassi"/>
-        <team id="e9897fd1-8187-4930-814d-5d05cd43d198" name="Chip Ganassi Racing">
-        </team>
-      </car>
-    </driver>
-    <driver id="65d1f369-365b-493d-9109-3af5ecb279b5" first_name="Brian" last_name="Keselowski" full_name="Brian Keselowski" birthday="1981-09-02" rookie_year="2008" gender="M" status="ACT" country="UNITED STATES" residence="Concord, North Carolina, United States" birth_place="Rochester Hills, Michigan, United States" hobbies="Riding snowmobiles, watching Detroit Red Wings hockey" points_eligible="true">
-      <team id="22fde1f3-22c1-4ad6-98b6-5a322adfc80d" name="K Automotive Racing">
-      </team>
-    </driver>
-    <driver id="564b5b4b-c974-4b21-b024-c1dd5bb4210d" first_name="Mark" last_name="Green" full_name="Mark Green" birthday="1959-04-08" gender="M" status="RET" country="United States" points_eligible="false">
-    </driver>
-    <driver id="cb54b9b5-bb7b-400d-9838-ef85747bb2d1" first_name="Ryan" last_name="Truex" full_name="Ryan Truex" birthday="1992-03-18" rookie_year="2011" gender="M" status="ACT" country="UNITED STATES" residence="Mooresville, North Carolina, United States" birth_place="Mayetta, New Jersey, United States" hobbies="Snowboarding, radio-control cars, online racing, riding dirt bikes" twitter="@ryan_truex" points_eligible="false">
-      <car id="595e9d2a-c678-472d-9209-afb0c7a18f0a" number="71" sponsors="Accell Construction, Inc." status="ACT" crew_chief="Tommy Baldwin">
-        <manufacturer id="dbf04b7a-c4a2-4cff-9dd0-cf1977fc446e" name="Chevrolet"/>
-        <engine id="6d1842a1-33cc-4a2a-88c4-b15ec783213a" name="Chevrolet"/>
-        <owner id="afc002e5-54f7-4a74-95da-22b31de3de23" name="Tommy Baldwin Jr."/>
-        <team id="d7fa0cd7-5376-4425-b046-90eafc2c7394" name="Tommy Baldwin Racing">
-        </team>
-      </car>
-    </driver>
-    <driver id="2348ff14-9f4a-418b-814d-bdb75d698ca4" first_name="David" last_name="Mayhew" full_name="David Mayhew" gender="M" status="ACT" country="United States" points_eligible="false">
-      <team id="9f29519d-6cc1-4a3c-83bd-6f077d50b21b" name="Phil Parsons Racing">
+    <driver id="650d00cd-3279-49c1-970f-abbe1085930d" first_name="Devin" last_name="Dodson" full_name="Devin Dodson" birthday="1999-03-15" gender="M" status="ACT" country="UNITED STATES" residence=", , " birth_place="Bishopville, Maryland, United States" points_eligible="true">
+      <team id="13de6f24-4cb7-4c52-aa01-0c6e3041cb6b" name="Reaume Brothers Racing">
       </team>
     </driver>
   </season>
-</series><!-- Generation ended @ 2019-06-12 16:35:48 +0000 -->
+</series><!-- Generation ended @ 2020-12-29 16:23:02 UTC -->
