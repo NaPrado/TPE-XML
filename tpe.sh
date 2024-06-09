@@ -1,18 +1,12 @@
-TYPES_FILE=types.xml
-TYPE_INFO_FILE=type_info.xml
-TYPE_LINEUPS_FILE=type_lineups.xml
-TYPE_DATA_FILE=type_data.xml
-
 DRIVE_STANDINGS_FILE=drivers_standings.xml
 DRIVE_LIST_FILE=drivers_list.xml
-
-MARKDOWN_FILE=type_page.md
 
 error=0
 invalid_arguments_number=0
 null_api_key=0
 year_error=0
 information_not_found=0
+long=$(expr length "$API_KEY")
 
 
 if [ $# -ne 2 ]
@@ -21,9 +15,10 @@ then
     exit 2
 fi
 
-if [ -z "$API_KEY" ]
+#$API_KEY must be 40 chars long
+if [ 40 -ne $long ]
 then
-    echo "Api Key not found"
+    echo "Invalid Api Key or not found"
     exit 2
 fi
 
@@ -63,11 +58,7 @@ java net.sf.saxon.Query "invalid_arguments_number=$invalid_arguments_number" "nu
 
 echo "Generating '.fo' archive"
 java net.sf.saxon.Transform -s:data/nascar_data.xml -xsl:tools/generate_fo.xsl -o:tools/nascar_page.fo > /dev/null 2>&1
+
 echo "Making the .pdf archive"
 ./fop-2.9/fop/fop ./tools/nascar_page.fo  nascar_report.pdf > /dev/null 2>&1
 echo "The pdf name as \"nascar_report.pdf\" can be found at the actual directory"
-
-# java net.sf.saxon.Transform -s:data/$TYPE_DATA_FILE -xsl:tools/add_validation_schema.xsl -o:data/$TYPE_DATA_FILE
-# echo Data generated at data/$TYPE_DATA_FILE
-# java net.sf.saxon.Transform -s:data/$TYPE_DATA_FILE -xsl:tools/generate_markdown.xsl -o:data/$MARKDOWN_FILE
-# echo Page generated at data/$MARKDOWN_FILE
