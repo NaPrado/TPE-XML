@@ -2,12 +2,12 @@
 <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
    <fo:layout-master-set>
       <fo:simple-page-master master-name="page"
-                              page-width="21cm"
-                              page-height="29.7cm"
-                              margin-left="1.5cm"
-                              margin-right="1.5cm"
-                              margin-top="1cm"
-                              margin-bottom="2cm">
+                             page-width="21cm"
+                             page-height="29.7cm"
+                             margin-left="1.5cm"
+                             margin-right="1.5cm"
+                             margin-top="1cm"
+                             margin-bottom="2cm">
          <fo:region-body/>
          <fo:region-before extent="1cm"/>
          <fo:region-after extent="1cm"/>
@@ -20,12 +20,12 @@
                     </fo:block>
       </fo:static-content>
       <fo:flow flow-name="xsl-region-body">
-         <fo:block font-size="14pt" text-align="left" margin-bottom="10pt">Drivers for sc for 2020 season</fo:block>
+         <fo:block font-size="14pt" text-align="left" margin-bottom="10pt">Drivers for sc for 2013 season</fo:block>
          <fo:table table-layout="fixed"
-                    width="100%"
-                    border="1pt solid black"
-                    font-size="8pt"
-                    text-align="center">
+                   width="100%"
+                   border="1pt solid black"
+                   font-size="8pt"
+                   text-align="center">
             <fo:table-column column-width="14%"/>
             <fo:table-column column-width="10%"/>
             <fo:table-column column-width="10%"/>
@@ -77,16 +77,16 @@
             <fo:table-body>
                <fo:table-row>
                   <fo:table-cell>
-                     <fo:block>Chase Elliott</fo:block>
+                     <fo:block>Jimmie Johnson</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>United states</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>1995-11-28</fo:block>
+                     <fo:block>1975-09-17</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>Dawsonville, Georgia, United States</fo:block>
+                     <fo:block>El Cajon, California, United States</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>Chevrolet</fo:block>
@@ -95,124 +95,54 @@
                      <fo:block color="green">1</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>5040</fo:block>
+                     <fo:block>2449</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>5</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1</fo:block>
+                     <fo:block>6</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>3</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>9541</fo:block>
+                     <fo:block>1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>10306</fo:block>
                   </fo:table-cell>
                </fo:table-row>
                <fo:table-row>
                   <fo:table-cell>
-                     <fo:block>Brad Keselowski</fo:block>
+                     <fo:block>Matt Kenseth</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>United states</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>1984-02-12</fo:block>
+                     <fo:block>1972-03-10</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>Rochester Hills, Michigan, United States</fo:block>
+                     <fo:block>Cambridge, Wisconsin, United States</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>Ford</fo:block>
+                     <fo:block>-</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block color="green">2</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>5035</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>4</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>2</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>9739</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Joey Logano</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1990-05-24</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Middletown, Connecticut, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Ford</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="green">3</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>5034</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>3</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>4</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>9785</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Denny Hamlin</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1980-11-18</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Chesterfield, Virginia, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Toyota</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">4</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>5033</fo:block>
+                     <fo:block>2435</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>7</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>0</fo:block>
+                     <fo:block>3</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>1</fo:block>
+                     <fo:block>3</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>9891</fo:block>
+                     <fo:block>10141</fo:block>
                   </fo:table-cell>
                </fo:table-row>
                <fo:table-row>
@@ -232,92 +162,22 @@
                      <fo:block>Ford</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block color="black">5</fo:block>
+                     <fo:block color="green">3</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>2410</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>9</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>9911</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Alex Bowman</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1993-04-25</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Tucson, Arizona, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Chevrolet</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">6</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>2371</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
+                     <fo:block>2405</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>4</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>9575</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Martin Truex Jr</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1980-06-29</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Mayetta, New Jersey, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Toyota</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">7</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>2341</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
                      <fo:block>1</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>0</fo:block>
+                     <fo:block>2</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>3</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>9690</fo:block>
+                     <fo:block>10204</fo:block>
                   </fo:table-cell>
                </fo:table-row>
                <fo:table-row>
@@ -337,57 +197,197 @@
                      <fo:block>Toyota</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block color="black">8</fo:block>
+                     <fo:block color="black">4</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>2341</fo:block>
+                     <fo:block>2384</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>1</fo:block>
+                     <fo:block>4</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>6</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>9496</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Ryan Blaney</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1993-12-31</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>High Point, North Carolina, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Ford</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">9</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>2336</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
+                     <fo:block>3</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>5</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>9219</fo:block>
+                     <fo:block>10070</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Dale Earnhardt Jr</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1974-10-10</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Kannapolis, North Carolina, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">5</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>2363</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>2</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>10256</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Jeff Gordon</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1971-08-04</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Vallejo, California, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">6</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>2342</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>2</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>5</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>9968</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Clint Bowyer</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1979-05-30</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Emporia, Kansas, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Ford</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">7</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>2336</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>2</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>10400</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Joey Logano</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1990-05-24</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Middletown, Connecticut, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Ford</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">8</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>2328</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>2</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>10093</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Greg Biffle</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1969-12-23</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Vancouver, Washington, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">9</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>2326</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>10304</fo:block>
                   </fo:table-cell>
                </fo:table-row>
                <fo:table-row>
@@ -410,45 +410,45 @@
                      <fo:block color="black">10</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>2287</fo:block>
+                     <fo:block>2309</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>1</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>1</fo:block>
+                     <fo:block>2</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>5</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>9404</fo:block>
+                     <fo:block>10418</fo:block>
                   </fo:table-cell>
                </fo:table-row>
                <fo:table-row>
                   <fo:table-cell>
-                     <fo:block>Austin Dillon</fo:block>
+                     <fo:block>Kasey Kahne</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>United states</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>1990-04-27</fo:block>
+                     <fo:block>1980-04-10</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>Welcome, North Carolina, United States</fo:block>
+                     <fo:block>Enumclaw, Washington, United States</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>Chevrolet</fo:block>
+                     <fo:block>-</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block color="black">11</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>2277</fo:block>
+                     <fo:block>2293</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>1</fo:block>
+                     <fo:block>2</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>0</fo:block>
@@ -457,462 +457,42 @@
                      <fo:block>3</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>9469</fo:block>
+                     <fo:block>10158</fo:block>
                   </fo:table-cell>
                </fo:table-row>
                <fo:table-row>
                   <fo:table-cell>
-                     <fo:block>Clint Bowyer</fo:block>
+                     <fo:block>Carl Edwards</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>United states</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>1979-05-30</fo:block>
+                     <fo:block>1979-08-15</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>Emporia, Kansas, United States</fo:block>
+                     <fo:block>Columbia, Missouri, United States</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>Ford</fo:block>
+                     <fo:block>-</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block color="black">12</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>2254</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1</fo:block>
+                     <fo:block>2292</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>2</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>9506</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Matt DiBenedetto</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1991-07-27</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Grass Valley, California, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Ford</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">13</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>2249</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>9767</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>William Byron</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1997-11-29</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Charlotte, North Carolina, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Chevrolet</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">14</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>2247</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>4</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>9315</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Aric Almirola</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1984-03-14</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Tampa, Florida, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Ford</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">15</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>2235</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>3</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>9707</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Cole Custer</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1998-01-23</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Ladera Ranch, California, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Ford</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">16</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>2202</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>6</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>9364</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Erik Jones</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1996-05-30</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Byron, Michigan, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Toyota</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">17</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>873</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>3</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>9735</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Jimmie Johnson</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1975-09-17</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>El Cajon, California, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Chevrolet</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">18</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>836</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>6</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>9304</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Tyler Reddick</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1996-01-11</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Corning, California, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Chevrolet</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">19</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>780</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>5</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>9446</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Christopher Bell</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1994-12-16</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Norman, Oklahoma, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Toyota</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">20</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>678</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>4</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>9428</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Chris Buescher</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1992-10-29</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Prosper, Texas, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Ford</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">21</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>645</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>3</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>9361</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Bubba Wallace</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1993-10-08</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Mobile, Alabama, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Chevrolet</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">22</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>597</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>6</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>9079</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Michael McDowell</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1984-12-21</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Glendale, Arizona, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Ford</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">23</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>588</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
+                     <fo:block>2</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>2</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>9627</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Ricky Stenhouse Jr</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1987-10-02</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Olive Branch, Mississippi, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Chevrolet</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">24</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>584</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>8</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>8096</fo:block>
+                     <fo:block>10235</fo:block>
                   </fo:table-cell>
                </fo:table-row>
                <fo:table-row>
@@ -932,462 +512,83 @@
                      <fo:block>Ford</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block color="black">25</fo:block>
+                     <fo:block color="black">13</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>566</fo:block>
+                     <fo:block>2291</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
+                     <fo:block>1</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>2</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>8976</fo:block>
+                     <fo:block>5</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>9994</fo:block>
                   </fo:table-cell>
                </fo:table-row>
                <fo:table-row>
                   <fo:table-cell>
-                     <fo:block>Ty Dillon</fo:block>
+                     <fo:block>Brad Keselowski</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>United states</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>1992-02-27</fo:block>
+                     <fo:block>1984-02-12</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>Welcome, North Carolina, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Chevrolet</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">26</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>556</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>4</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>9495</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>John H. Nemechek</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1997-06-11</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Mooresville, North Carolina, United States</fo:block>
+                     <fo:block>Rochester Hills, Michigan, United States</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>Ford</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block color="black">27</fo:block>
+                     <fo:block color="black">14</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>534</fo:block>
+                     <fo:block>1041</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>0</fo:block>
+                     <fo:block>1</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>5</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>9611</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Matt Kenseth</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1972-03-10</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Cambridge, Wisconsin, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Chevrolet</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">28</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>521</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>5</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>8337</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Ryan Preece</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1990-10-25</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Berlin, Connecticut, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Chevrolet</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">29</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>477</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>8</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>9208</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Corey Lajoie</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1991-09-25</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Concord, North Carolina, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Ford</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">30</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>408</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>6</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>9244</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Daniel Suarez</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Mexico</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1992-01-07</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Monterrey, , Mexico</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Toyota</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">31</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>365</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
+                     <fo:block>1</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>2</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>9523</fo:block>
+                     <fo:block>10253</fo:block>
                   </fo:table-cell>
                </fo:table-row>
                <fo:table-row>
                   <fo:table-cell>
-                     <fo:block>Brennan Poole</fo:block>
+                     <fo:block>Jamie McMurray</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>United states</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>1991-04-11</fo:block>
+                     <fo:block>1976-06-03</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>The Woodlands, Texas, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block/>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">32</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>269</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>9</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>8566</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Quin Houff</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1997-09-15</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Weyers Cave, Virginia, United States</fo:block>
+                     <fo:block>Joplin, Missouri, United States</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>Chevrolet</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block color="black">33</fo:block>
+                     <fo:block color="black">15</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>214</fo:block>
+                     <fo:block>1007</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>6</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>8974</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Kyle Larson</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1992-07-31</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Elk Grove, California, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block/>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">34</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>121</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>991</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Brendan Gaughan</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1975-07-10</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Las Vegas, Nevada, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Chevrolet</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">35</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>78</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>2</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>718</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Reed Sorenson</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1986-02-05</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Peachtree City, Georgia, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Chevrolet</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">36</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>68</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>5</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>4356</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>James Davison</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Australia</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1986-08-28</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Melbourne, , Australia</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Ford</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">37</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>56</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>4</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>3170</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Stanton Barrett</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1972-12-01</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Bishop, California, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block/>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">38</fo:block>
+                     <fo:block>1</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>1</fo:block>
@@ -1396,13 +597,427 @@
                      <fo:block>0</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>0</fo:block>
+                     <fo:block>10474</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Martin Truex Jr</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1980-06-29</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Mayetta, New Jersey, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Toyota</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">16</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>998</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>0</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>49</fo:block>
+                     <fo:block>3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>10163</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Paul Menard</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1980-08-21</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Eau Claire, Wisconsin, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Ford</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">17</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>949</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>2</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>10320</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Aric Almirola</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1984-03-14</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Tampa, Florida, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Ford</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">18</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>913</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>4</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>10140</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Ricky Stenhouse Jr</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1987-10-02</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Olive Branch, Mississippi, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Ford</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">19</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>909</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>10416</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Jeff Burton</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1967-06-29</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>South Boston, VA, USA</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">20</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>906</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>2</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>10364</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Juan Pablo Montoya</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Columbia</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1975-09-20</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Bogota,, COL</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">21</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>894</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>10280</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Marcos Ambrose</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Tasmania</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1976-01-09</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Launceston, Tasmania, AUS</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">22</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>872</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>2</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>10129</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Denny Hamlin</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1980-11-18</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Chesterfield, Virginia, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Toyota</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">23</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>753</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>5</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>8</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>8522</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Casey Mears</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1978-03-12</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Bakersfield, California, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">24</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>719</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>10303</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Mark Martin</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1959-01-09</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Batesville, AR, USA</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">25</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>649</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>8276</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>David Gilliland</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1976-04-01</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Riverside, California, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">26</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>648</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>6</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>10045</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Danica Patrick</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1982-03-25</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Roscoe, Illinois, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">27</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>646</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>5</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>9951</fo:block>
                   </fo:table-cell>
                </fo:table-row>
                <fo:table-row>
@@ -1422,83 +1037,80 @@
                      <fo:block>Ford</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block color="black">39</fo:block>
+                     <fo:block color="black">28</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>633</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>0</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>0</fo:block>
+                     <fo:block>6</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>209</fo:block>
+                     <fo:block>9458</fo:block>
                   </fo:table-cell>
                </fo:table-row>
                <fo:table-row>
                   <fo:table-cell>
-                     <fo:block>Kaz Grala</fo:block>
+                     <fo:block>Tony Stewart</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>United states</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>1998-12-29</fo:block>
+                     <fo:block>1971-05-20</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>Westborough, Massachusetts, United States</fo:block>
+                     <fo:block>Columbus, Indiana, United States</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block/>
+                     <fo:block>-</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block color="black">40</fo:block>
+                     <fo:block color="black">29</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>0</fo:block>
+                     <fo:block>594</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
+                     <fo:block>1</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>0</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>65</fo:block>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>5744</fo:block>
                   </fo:table-cell>
                </fo:table-row>
                <fo:table-row>
                   <fo:table-cell>
-                     <fo:block>Justin Haley</fo:block>
+                     <fo:block>Dave Blaney</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>United states</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>1999-04-28</fo:block>
+                     <fo:block>1962-10-24</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>Winamac, Indiana, United States</fo:block>
+                     <fo:block>Hartford Township, OH, USA</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>Chevrolet</fo:block>
+                     <fo:block>-</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block color="black">41</fo:block>
+                     <fo:block color="black">30</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
+                     <fo:block>526</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>0</fo:block>
@@ -1507,7 +1119,255 @@
                      <fo:block>0</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>409</fo:block>
+                     <fo:block>5</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>9518</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Travis Kvapil</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1976-03-01</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Janesville, Wisconsin, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">31</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>496</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>9</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>9035</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>JJ Yeley</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1976-10-05</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Phoenix, Arizona, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">32</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>472</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>8</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>9421</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>David Reutimann</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1970-03-02</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Zephyrhills, FL, USA</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">33</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>465</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>9</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>9340</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Bobby Labonte</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1964-05-08</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Corpus Christi, Texas, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">34</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>412</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>6</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>6943</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>AJ Allmendinger</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1981-12-16</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Los Gatos, California, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">35</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>410</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>2</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>4781</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>David Stremme</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1977-06-19</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>South Bend, IN, USA</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">36</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>362</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>6840</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Michael McDowell</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1984-12-21</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Glendale, Arizona, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Ford</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">37</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>210</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>26</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>3515</fo:block>
                   </fo:table-cell>
                </fo:table-row>
                <fo:table-row>
@@ -1527,7 +1387,10 @@
                      <fo:block>Toyota</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block color="black">42</fo:block>
+                     <fo:block color="black">38</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>190</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>0</fo:block>
@@ -1536,36 +1399,33 @@
                      <fo:block>0</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>0</fo:block>
+                     <fo:block>3</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>14</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>7825</fo:block>
+                     <fo:block>5050</fo:block>
                   </fo:table-cell>
                </fo:table-row>
                <fo:table-row>
                   <fo:table-cell>
-                     <fo:block>Ross Chastain</fo:block>
+                     <fo:block>Ken Schrader</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>United states</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>1992-12-04</fo:block>
+                     <fo:block>1955-05-29</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>Alva, Florida, United States</fo:block>
+                     <fo:block>Fenton, Missouri, United States</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block/>
+                     <fo:block>-</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block color="black">43</fo:block>
+                     <fo:block color="black">39</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>0</fo:block>
+                     <fo:block>118</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>0</fo:block>
@@ -1577,27 +1437,33 @@
                      <fo:block>1</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>2070</fo:block>
+                     <fo:block>3448</fo:block>
                   </fo:table-cell>
                </fo:table-row>
                <fo:table-row>
                   <fo:table-cell>
-                     <fo:block>Joey Gase</fo:block>
+                     <fo:block>Michael Waltrip</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>United states</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>1993-02-08</fo:block>
+                     <fo:block>1963-04-30</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>Cedar Rapids, Iowa, United States</fo:block>
+                     <fo:block>Owensboro, Kentucky, United States</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>Ford</fo:block>
+                     <fo:block>-</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block color="black">44</fo:block>
+                     <fo:block color="black">40</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>114</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>0</fo:block>
@@ -1606,36 +1472,100 @@
                      <fo:block>0</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>7</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>8190</fo:block>
+                     <fo:block>740</fo:block>
                   </fo:table-cell>
                </fo:table-row>
                <fo:table-row>
                   <fo:table-cell>
-                     <fo:block>Cody Ware</fo:block>
+                     <fo:block>Scott Speed</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>United states</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>1995-11-07</fo:block>
+                     <fo:block>1983-01-24</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>Greensboro, North Carolina, United States</fo:block>
+                     <fo:block/>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>Chevrolet</fo:block>
+                     <fo:block>-</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block color="black">45</fo:block>
+                     <fo:block color="black">41</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>99</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>9</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1428</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Terry Labonte</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1956-11-16</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block/>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">42</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>87</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1228</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Boris Said</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1962-09-18</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Carlsbad, California, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">43</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>48</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>0</fo:block>
@@ -1652,130 +1582,60 @@
                </fo:table-row>
                <fo:table-row>
                   <fo:table-cell>
-                     <fo:block>JJ Yeley</fo:block>
+                     <fo:block>Ron Fellows</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>United states</fo:block>
+                     <fo:block>Canada</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>1976-10-05</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Phoenix, Arizona, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Chevrolet</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">46</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>5</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>8461</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>BJ McLeod</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1983-11-17</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Wauchula, Florida, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Chevrolet</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">47</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>7</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>3024</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Garrett Smithley</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1992-04-27</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Ligonier, Pennsylvania, United States</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Ford</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block color="black">48</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>8</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>6028</fo:block>
-                  </fo:table-cell>
-               </fo:table-row>
-               <fo:table-row>
-                  <fo:table-cell>
-                     <fo:block>Josh Bilicki</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>United states</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>1995-06-03</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>Menomonee Falls, Wisconsin, United States</fo:block>
+                     <fo:block>1959-09-28</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block/>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block color="black">49</fo:block>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">44</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>31</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>184</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Alex Kennedy</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1992-02-02</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Aztec, New Mexico, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">45</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>21</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>0</fo:block>
@@ -1787,27 +1647,342 @@
                      <fo:block>2</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>5312</fo:block>
+                     <fo:block>142</fo:block>
                   </fo:table-cell>
                </fo:table-row>
                <fo:table-row>
                   <fo:table-cell>
-                     <fo:block>Gray Gaulding</fo:block>
+                     <fo:block>Justin Marks</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>United states</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>1998-02-10</fo:block>
+                     <fo:block>1981-03-25</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>Colonial Heights, Virginia, United States</fo:block>
+                     <fo:block>Los Altos Hills, California, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">46</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>14</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>110</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Scott Riggs</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1971-01-01</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Bahama, NC, USA</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">47</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>11</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>7</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>274</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Victor Gonzalez Jr</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Puerto rico</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1975-07-18</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Trujillo Alto, , Puerto Rico</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">48</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>10</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>148</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Brian Keselowski</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1981-09-02</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Rochester Hills, Michigan, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">49</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>9</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>2</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>233</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Tomy Drissi</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1958-12-09</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Hollywood, California, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">50</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>8</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>147</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Jacques Villeneuve</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Canada</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1971-04-09</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Saint-Jean sur-Richelieu, Quebec</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">51</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>19</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Jason Leffler</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1975-09-16</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block/>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block color="black">50</fo:block>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">52</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>8</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Brian Vickers</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1983-10-24</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Thomasville, North Carolina, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">53</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>5</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>5376</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Regan Smith</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1983-09-23</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Cato, New York, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">54</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1918</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Austin Dillon</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1990-04-27</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Welcome, North Carolina, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">55</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>0</fo:block>
@@ -1822,30 +1997,27 @@
                      <fo:block>1</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>2637</fo:block>
+                     <fo:block>2829</fo:block>
                   </fo:table-cell>
                </fo:table-row>
                <fo:table-row>
                   <fo:table-cell>
-                     <fo:block>David Starr</fo:block>
+                     <fo:block>Elliott Sadler</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>United states</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>1967-10-11</fo:block>
+                     <fo:block>1975-04-30</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>Houston, Texas, United States</fo:block>
+                     <fo:block>Emporia, Virginia, United States</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block/>
+                     <fo:block>-</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block color="black">51</fo:block>
-                  </fo:table-cell>
-                  <fo:table-cell>
-                     <fo:block>0</fo:block>
+                     <fo:block color="black">56</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>0</fo:block>
@@ -1857,27 +2029,30 @@
                      <fo:block>0</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>479</fo:block>
+                     <fo:block>1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1493</fo:block>
                   </fo:table-cell>
                </fo:table-row>
                <fo:table-row>
                   <fo:table-cell>
-                     <fo:block>Chad Finchum</fo:block>
+                     <fo:block>Trevor Bayne</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>United states</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>1994-09-22</fo:block>
+                     <fo:block>1991-02-19</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>Knoxville, Tennessee, United States</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>Toyota</fo:block>
+                     <fo:block>-</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block color="black">52</fo:block>
+                     <fo:block color="black">57</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>0</fo:block>
@@ -1892,7 +2067,182 @@
                      <fo:block>2</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>483</fo:block>
+                     <fo:block>2678</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Kyle Larson</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1992-07-31</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Elk Grove, California, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">58</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>2</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1005</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Max Papis</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1969-10-03</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block/>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">59</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>90</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Parker Kligerman</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1990-08-08</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Westport, Connecticut, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Toyota</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">60</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>599</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Josh Wise</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1983-02-07</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Riverside, California, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">61</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>16</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>7739</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Landon Cassill</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1989-07-07</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Cedar Rapids, Iowa, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">62</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>8</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>8798</fo:block>
                   </fo:table-cell>
                </fo:table-row>
                <fo:table-row>
@@ -1909,10 +2259,10 @@
                      <fo:block>Riverton, Illinois, United States</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block/>
+                     <fo:block>-</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block color="black">53</fo:block>
+                     <fo:block color="black">63</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>0</fo:block>
@@ -1927,27 +2277,202 @@
                      <fo:block>1</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>17</fo:block>
+                     <fo:block>898</fo:block>
                   </fo:table-cell>
                </fo:table-row>
                <fo:table-row>
                   <fo:table-cell>
-                     <fo:block>Bayley Currey</fo:block>
+                     <fo:block>Owen Kelly</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Australia</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1977-03-12</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Tasmania, , Australia</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">64</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>90</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Joe Nemechek</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>United states</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>1996-10-29</fo:block>
+                     <fo:block>1963-09-26</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>Driftwood, Texas, United States</fo:block>
+                     <fo:block>Lakeland, Florida, United States</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block/>
+                     <fo:block>-</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block color="black">54</fo:block>
+                     <fo:block color="black">65</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>15</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>7168</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Cole Whitt</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1991-06-22</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Alpine, California, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">66</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>2</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1920</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Brian Scott</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1988-01-12</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Boise, Idaho, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">67</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>330</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Tony Raines</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1964-04-14</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>LaPorte, IN, USA</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">68</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>8</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1914</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Ryan Truex</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1992-03-18</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Mayetta, New Jersey, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">69</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
                      <fo:block>0</fo:block>
@@ -1962,7 +2487,322 @@
                      <fo:block>1</fo:block>
                   </fo:table-cell>
                   <fo:table-cell>
-                     <fo:block>203</fo:block>
+                     <fo:block>826</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Brendan Gaughan</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1975-07-10</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Las Vegas, Nevada, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">70</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>196</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Mike Bliss</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1965-04-05</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Milwaukie, Oregon, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">71</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>11</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>881</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Reed Sorenson</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1986-02-05</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Peachtree City, Georgia, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Chevrolet</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">72</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>6</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>977</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Sam Hornish Jr</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1979-07-02</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Defiance, Ohio, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">73</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>181</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Kevin Swindell</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block/>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block/>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">74</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>244</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Blake Koch</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1985-08-07</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>West Palm Beach, Florida, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">75</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>216</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Paulie Harraka</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1989-09-15</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block/>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">76</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>89</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Johnny Sauter</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1978-05-01</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Necedah, Wisconsin, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">77</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>2</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>137</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block>Morgan Shepherd</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>United states</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1941-10-12</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>Ferguson, North Carolina, United States</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>-</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block color="black">78</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>0</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>92</fo:block>
                   </fo:table-cell>
                </fo:table-row>
             </fo:table-body>
