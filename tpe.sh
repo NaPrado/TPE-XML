@@ -8,10 +8,68 @@ year_error=0
 information_not_found=0
 long=$(expr length "$API_KEY")
 
+competitionType=$1
+year=$2
+
+
+ValidYear(){
+    if [[ ! $1 =~ ^[0-9]*{4}$ ]]
+    then
+        echo "$1 not a number"
+        return 2
+    fi
+
+    if [ $1 -lt 2013 ] || [ $1 -gt 2023 ]
+    then
+        echo "The year choosen has to be between 2013 and 2023"
+        return 2
+    fi
+    return 0
+}
+
+AskYearAgain(){
+
+    while [ true ]
+    do
+        echo "input a valid year"
+        read x
+        ValidYear $x
+        if [ $? -eq 0 ]
+        then
+            year="$x"
+            return 0
+        fi
+    done
+}
+ValidCompetition(){
+    if [[ ! $1 =~ (sc|xf|cw|go|mc)$ ]]
+    then
+        echo "Wrong categorie input error"
+        echo "valid categories sc, xf, cw, go or mc"
+        return 2
+    fi
+    return 0
+}
+AskCompetitionAgain(){
+    
+    while [ true ]
+    do
+        echo "input a valid categorie"
+        read y
+        ValidCompetition $y
+        if [ $? -eq 0 ]
+        then
+            competitionType="$y"
+            return 0
+        fi
+    done
+}
+
 
 if [ $# -ne 2 ]
 then
     echo "Invalid number of arguments error"
+    echo "Try ./tpe.sh [Competition] [Year]"
     exit 2
 fi
 
@@ -22,23 +80,19 @@ then
     exit 2
 fi
 
-if [ $2 -lt 2013 ] || [ $2 -gt 2023 ]
+ValidYear $2
+if [ $? -ne 0 ];
 then
-    echo "The year choosen has to be between 2013 and 2023"
-    exit 2
+    AskYearAgain
+fi
+
+ValidCompetition $1
+if [ $? -ne 0 ]
+then
+    AskCompetitionAgain
 fi
 
 
-if [[ $1 =~ (sc|xf|cw|go|mc)$ ]]
-then
-    echo > /dev/null
-else
-    echo "Wrong categorie input error"
-    exit 2
-fi
-
-competitionType=$1
-year=$2
 
 
 # Call to information and lineups endpoint
