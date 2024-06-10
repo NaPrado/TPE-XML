@@ -6,14 +6,13 @@ invalid_arguments_number=0
 null_api_key=0
 year_error=0
 information_not_found=0
-long=$(expr length "$API_KEY")
 
 competitionType=$1
 year=$2
 
 
 ValidYear(){
-    if [[ ! $1 =~ ^[0-9]*{4}$ ]]
+    if ! [[ $1 =~ ^[0-9]{4}$ ]];
     then
         echo "$1 not a number"
         year_error=1
@@ -78,7 +77,7 @@ then
 fi
 
 #$API_KEY must be 40 chars long
-if [ 40 -ne $long ]
+if [ -z $API_KEY ]
 then
     echo "Invalid Api Key or not found"
     null_api_key=1
