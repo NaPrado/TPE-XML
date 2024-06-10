@@ -5,6 +5,7 @@ declare variable $year_error as xs:integer external;
 declare variable $year as xs:string external;
 declare variable $competitionType as xs:string external;
 
+
 declare function local:query-errors($errorMessage as xs:string) as element(nascar_data) {
   element nascar_data{
     element error{$errorMessage}
@@ -26,7 +27,7 @@ declare function local:main-errors($invalid_arguments as xs:boolean, $null_api a
     if($year_error eq 1)then
       element error{"Year must be a number"}
     else if($year_error eq 2) then
-      element error{"Year must be greater or equal to 2007"}
+      element error{"Year must be greater or equal to 2013 and lower than 2023"}
     else (),
     
     if ($info_not_found) then
