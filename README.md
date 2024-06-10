@@ -17,7 +17,7 @@ El presente trabajo consiste en un programa que realiza una consulta a la págin
    ```sh
    ./tpe.sh "sc" 2015
    ```
-Reemplazando "sc" por la competencia que se quiera consultar (sc, xf, cw, go, mc) y 2015 por el año solicitado (años validos desde 2013 hasta 2023).
+    Reemplazando "sc" por la competencia que se quiera consultar (sc, xf, cw, go, mc) y 2015 por el año solicitado (años validos desde 2013 hasta 2023).
 
 ## Integrantes:
 
