@@ -80,6 +80,13 @@ then
     tooManyRequests=1
     hasAnErrorOcurred=1
 fi
+if head -n 1 "./data/drivers_standings.xml" | grep -q "{\"message\":\"Object not found\"}" ;
+then
+    echo "Wrong categorie input error"
+    echo "valid categories sc, xf, cw, go or mc"
+    information_not_found=1
+    hasAnErrorOcurred=1
+fi
 
 ./scripts_bash/drivers_list.sh $DRIVE_LIST_FILE $competitionType $year
 if head -n 1 "./data/drivers_list.xml" | grep -q "{\"message\":\"Too Many Requests\"}" ;
