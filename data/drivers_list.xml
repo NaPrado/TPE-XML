@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nascar/series-v2.0.xsl"?><!-- Generation started @ 2024-06-10 15:11:24 UTC --><series id="32252f5c-ca88-460f-b786-2d28503e6048" alias="TRUCK" name="NASCAR Craftsman Truck Series">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nascar/series-v2.0.xsl"?><!-- Generation started @ 2024-06-11 19:16:01 UTC --><series id="32252f5c-ca88-460f-b786-2d28503e6048" alias="TRUCK" name="NASCAR Craftsman Truck Series">
   <season year="2014" id="646760dc-da78-45d5-ba6c-318697444845">
     <driver id="9e6c23b8-4c23-42a9-8f37-b58265335039" first_name="Blake" last_name="Koch" full_name="Blake Koch" birthday="1985-08-07" rookie_year="2011" gender="M" status="ACT" country="UNITED STATES" residence="Cornelius, North Carolina, United States" birth_place="West Palm Beach, Florida, United States" hobbies="Hunting, fishing, R/C cars" twitter="@BlakeKochRacing" points_eligible="false">
     </driver>
@@ -377,4 +377,4 @@
       </car>
     </driver>
   </season>
-</series><!-- Generation ended @ 2024-06-10 15:11:24 UTC -->
+</series><!-- Generation ended @ 2024-06-11 19:16:01 UTC -->

@@ -4,6 +4,7 @@ declare variable $information_not_found as xs:boolean external;
 declare variable $year_error as xs:integer external;
 declare variable $year as xs:string external;
 declare variable $competitionType as xs:string external;
+declare variable $too_many_requests as xs:boolean external;
 
 
 declare function local:query-errors($errorMessage as xs:string) as element(nascar_data) {
@@ -13,15 +14,15 @@ declare function local:query-errors($errorMessage as xs:string) as element(nasca
 };
 
 
-declare function local:main-errors($invalid_arguments as xs:boolean, $null_api as xs:boolean, $info_not_found as xs:boolean, $year_error as xs:integer) as element()* {
+declare function local:main-errors($invalid_arguments as xs:boolean, $null_api as xs:boolean, $info_not_found as xs:boolean, $year_error as xs:integer, $too_many_requests as xs:boolean) as element()* {
   element nascar_data{
 
     if ($invalid_arguments) then
-      element error{"Invalid number of arguments"}
+      element error{"Invalid number of arguments Error"}
     else (),
     
     if ($null_api) then
-      element error{"Null API Key"}
+      element error{"Null API Key Error"}
     else (),
 
     if($year_error eq 1)then
@@ -32,6 +33,10 @@ declare function local:main-errors($invalid_arguments as xs:boolean, $null_api a
     
     if ($info_not_found) then
       element error{ "Season not found" }
+    else (),
+
+    if ($too_many_requests) then
+      element error{ "Too many requests Error" }
     else ()
 
   }
@@ -87,7 +92,7 @@ declare function local:generate-xml($year as xs:string, $competitionType as xs:s
 
 
 
-if ($invalid_arguments_number or $null_api_key or $information_not_found or $year_error ne 0) then
-  local:main-errors($invalid_arguments_number, $null_api_key, $information_not_found, $year_error)
+if ($invalid_arguments_number or $null_api_key or $information_not_found or $too_many_requests or $year_error ne 0) then
+  local:main-errors($invalid_arguments_number, $null_api_key, $information_not_found, $year_error, $too_many_requests)
 else
   local:generate-xml(xs:string($year), xs:string($competitionType))
