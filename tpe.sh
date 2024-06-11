@@ -31,18 +31,6 @@ ValidYear(){
     return 0
 }
 
-ValidCompetition(){
-    if [[ ! $1 =~ (sc|xf|cw|go|mc)$ ]]
-    then
-        echo "Wrong categorie input error"
-        echo "valid categories sc, xf, cw, go or mc"
-        information_not_found=1
-        hasAnErrorOcurred=1
-        return 2
-    fi
-    return 0
-}
-
 if [ $# -ne 2 ]
 then
     echo "Invalid number of arguments error"
@@ -60,9 +48,6 @@ then
 fi
 
 ValidYear $2
-
-ValidCompetition $1
-
 
 # Call to information and lineups endpoint
 ./scripts_bash/drivers_standings.sh $DRIVE_STANDINGS_FILE $competitionType $year
@@ -82,10 +67,13 @@ then
 fi
 if head -n 1 "./data/drivers_standings.xml" | grep -q "{\"message\":\"Object not found\"}" ;
 then
-    echo "Wrong categorie input error"
-    echo "valid categories sc, xf, cw, go or mc"
-    information_not_found=1
-    hasAnErrorOcurred=1
+    if [[ $2 =~ ^[0-9]{1,4}$ ]];
+    then
+        echo "Wrong categorie input error"
+        echo "valid categories sc, xf, cw, go or mc"
+        information_not_found=1
+        hasAnErrorOcurred=1
+    fi
 fi
 
 ./scripts_bash/drivers_list.sh $DRIVE_LIST_FILE $competitionType $year
