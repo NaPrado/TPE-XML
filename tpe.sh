@@ -21,9 +21,9 @@ ValidYear(){
         return 2
     fi
 
-    if [ $1 -lt 2013 ] || [ $1 -gt 2023 ]
+    if [ $1 -lt 2013 ] || [ $1 -ge 2024 ]
     then
-        echo "The year choosen has to be between 2013 and 2023"
+        echo "The year choosen has to be between 2013 and 2024"
         year_error=2
         hasAnErrorOcurred=1
         return 2
@@ -51,8 +51,8 @@ then
     hasAnErrorOcurred=1
 fi
 
-#$API_KEY must be 40 chars long
-if [ -z $API_KEY ]
+#$SPORTRADAR_API must be 40 chars long
+if [ -z $SPORTRADAR_API ]
 then
     echo "Invalid Api Key or not found"
     null_api_key=1

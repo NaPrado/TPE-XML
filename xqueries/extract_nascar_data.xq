@@ -28,7 +28,7 @@ declare function local:main-errors($invalid_arguments as xs:boolean, $null_api a
     if($year_error eq 1)then
       element error{"Year must be a number"}
     else if($year_error eq 2) then
-      element error{"Year must be greater or equal to 2013 and lower than 2023"}
+      element error{"Year must be greater or equal to 2013 and lower equal 2024"}
     else (),
     
     if ($info_not_found) then
