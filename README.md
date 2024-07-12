@@ -5,14 +5,17 @@ El presente trabajo consiste en un programa que realiza una consulta a la págin
 
 ## Instrucciones:
 
-1. En primer lugar, se debe poseer una API_KEY válida para la página de SportRadar.
+1. Se debe incluir el programa Apache fop de tal forma que quede en el directorio ./fop-2.9/fop/fop  el ejecutable, caso contrario, modificar tpe.sh
+   [Adjunto link de descarga](https://xmlgraphics.apache.org/fop/download.html)
 
-2. Establecemos la variable de entorno API_KEY, añadiendo el el siguiente comando en el profile de tu terminal (por ejemplo en linux es el .bashrc):
+3. En segundo lugar, e debe poseer una API_KEY válida para la página de SportRadar.
+
+4. Establecemos la variable de entorno API_KEY, añadiendo el el siguiente comando en el profile de tu terminal (por ejemplo en linux es el .bashrc):
     ```sh
     export SPORTRADAR_API="Esto se debe remplazar por la key"
     ``` 
 
-3. Para ejecutar el programa, se debe correr la siguiente línea de códgio en la terminal: 
+5. Para ejecutar el programa, se debe correr la siguiente línea de códgio en la terminal: 
 
    ```sh
    ./tpe.sh "sc" 2015
